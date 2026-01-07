@@ -1,0 +1,78 @@
+.post-hero-logos {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  a {
+    width: 10%;
+    &.africa-cdc {
+      width: 7%;
+    }
+    &.vision-2030 {
+      width: 8%;
+    }
+    &.miti {
+      width: 7%;
+    }
+    &.amref {
+      width: 5%;
+    }
+    &.biovax {
+      width: 7%;
+    }
+    &.dalberg {
+      width: 5%;
+    }
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.convening-partners {
+  .header {
+    background-color: $secondary;
+    padding: 4vw 0 2vw 0;
+    width: 100%;
+    @include tablet-pro {
+      padding: 5vw 0 3vw 0;
+    }
+    @include tablet {
+      padding: 7vw 0 5vw 0;
+    }
+    @include mobile {
+      padding: 10vw 0 5vw 0;
+    }
+    h2 {
+      color: $white;
+      text-transform: uppercase;
+      font-family: $raleway;
+      text-align: center;
+      width: 100%;
+      @include tablet-pro {
+        font-size: 3vw;
+      }
+      @include tablet {
+        font-size: 3.5vw;
+        line-height: 5vw;
+      }
+      @include mobile {
+        font-size: 5vw;
+        line-height: 6.5vw;
+      }
+    }
+  }
+  .c-p {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    a {
+      width: 20%;
+      margin: 0 1vw;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

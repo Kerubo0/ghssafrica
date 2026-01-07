@@ -1,0 +1,1838 @@
+.about {
+  width: 100%;
+
+  #why_participate {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: 5vw 0;
+    padding: 0 5vw;
+    @include tablet-pro {
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      margin: 5vw 0;
+    }
+    @include tablet {
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      margin: 5vw 0;
+    }
+    @include mobile {
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      margin: 5vw 0 10vw 0;
+    }
+
+    .image {
+      width: 15%;
+      flex-grow: 1;
+      background-size: cover;
+      overflow: hidden;
+      background-position: center center;
+      margin: 0 0.7vw;
+      border-radius: 0.5vw;
+      box-shadow: 0 0 1vw -0.2vw #9e9e9e;
+      &.main {
+        width: 25%;
+      }
+    }
+    .content {
+      width: 35%;
+      background-repeat: no-repeat;
+      background-position: center;
+      font-family: "Lora", serif;
+      text-align: left;
+      padding: 2vw 0;
+      @include tablet-pro {
+        width: 100%;
+        padding: 3vw 3vw 3vw 3.5vw;
+      }
+      @include tablet {
+        width: 100%;
+        padding: 3vw 7vw 3vw 3.5vw;
+      }
+      @include mobile {
+        width: 100%;
+        padding: 0;
+        // background-position: 110% 0;
+      }
+
+      .main_title,
+      .main_right-heading {
+        color: $pink_red;
+        font-family: "poppins", serif;
+        font-size: 1.4vw;
+        line-height: 3vw;
+        margin-bottom: 1vw;
+        @include laptop {
+          font-size: 3vw;
+          line-height: 4vw;
+          margin-bottom: 2vw;
+        }
+        @include tablet-pro {
+          font-size: 3vw;
+          line-height: 4vw;
+        }
+        @include tablet {
+          font-size: 3.5vw;
+          line-height: 4.5vw;
+        }
+        @include mobile {
+          font-size: 4.5vw;
+          line-height: 6.5vw;
+          margin-bottom: 2vw;
+        }
+      }
+      .subtitle {
+        color: $primary;
+        font-size: 1.5vw;
+        margin-bottom: 1vw;
+        @include laptop {
+          font-size: 2vw;
+          line-height: 3vw;
+        }
+        @include tablet-pro {
+          font-size: 2.5vw;
+          line-height: 3vw;
+        }
+        @include tablet {
+          font-size: 2.8vw;
+          line-height: 4.5vw;
+        }
+        @include mobile {
+          font-size: 4vw;
+          line-height: 6.5vw;
+          margin-bottom: 2vw;
+        }
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 0.5vw 0;
+
+        li {
+          &::before {
+            content: "■";
+            margin-right: 0.5vw;
+            font-size: 0.8vw;
+            color: $primary;
+            @include tablet-pro {
+              font-size: 1vw;
+            }
+            @include tablet {
+              font-size: 2vw;
+            }
+            @include mobile {
+              font-size: 2vw;
+            }
+          }
+          ul.inner_list {
+            padding-left: 0vw;
+            li {
+              margin: 1vw 0;
+              &::before {
+                content: "";
+                margin-right: 0;
+              }
+            }
+          }
+        }
+      }
+
+      p,
+      li,
+      span {
+        text-align: left;
+        margin-bottom: 1vw;
+        font-size: 0.9vw;
+
+        font-family: "Poppins", sans-serif;
+        color: $text_color;
+        @include laptop {
+          font-size: 1.2vw;
+        }
+        @include tablet-pro {
+          font-size: 1.8vw;
+        }
+        @include tablet {
+          font-size: 2.3vw;
+          margin-bottom: 2vw;
+        }
+        @include mobile {
+          font-size: 3.5vw;
+          margin-bottom: 2vw;
+        }
+        strong {
+          color: $primary;
+        }
+        span {
+          &.title {
+            font-weight: 600;
+            color: $primary;
+          }
+          strong {
+            color: #0a4995;
+          }
+        }
+        @include mobile {
+          margin-bottom: 4vw;
+        }
+      }
+    }
+
+    &#global_health .image {
+      .vertical {
+        height: 100%;
+        width: 3vw;
+        background-color: #001227;
+        background-image: url("../../images/medpattern-v.png");
+        background-position: center;
+        background-repeat: repeat;
+        background-size: 5vw;
+      }
+
+      background-image: url("../../images/biohazard.jpg");
+    }
+
+    &#earghss {
+      padding-top: 5vw;
+      .image {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        .vertical {
+          height: 100%;
+          width: 3vw;
+          background-color: #001227;
+          background-image: url("../../images/medpattern-v.png");
+          background-position: center;
+          background-repeat: repeat;
+          background-size: 5vw;
+        }
+
+        background-image: url("../../images/bloodsamples.jpg");
+      }
+    }
+
+    &#themes_topics .image {
+      .vertical {
+        height: 100%;
+        width: 3vw;
+        background-color: #001227;
+        background-image: url("../../images/medpattern-v.png");
+        background-position: center;
+        background-repeat: repeat;
+        background-size: 5vw;
+      }
+
+      background-image: url("../../images/residency.jpg");
+    }
+
+    &#summit_approach .image {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      .vertical {
+        height: 100%;
+        width: 3vw;
+        background-color: #001227;
+        background-image: url("../../images/medpattern-v.png");
+        background-position: center;
+        background-repeat: repeat;
+        background-size: 5vw;
+      }
+
+      background-image: url("../../images/research.jpg");
+    }
+
+    &#participants .image {
+      .vertical {
+        height: 100%;
+        width: 3vw;
+        background-color: #001227;
+        background-image: url("../../images/medpattern-v.png");
+        background-position: center;
+        background-repeat: repeat;
+        background-size: 5vw;
+      }
+
+      background-image: url("../../images/testarea.jpg");
+    }
+
+    &#partnership {
+      padding-top: 5vw;
+      .image {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        .vertical {
+          height: 100%;
+          width: 3vw;
+          background-color: #001227;
+          background-image: url("../../images/medpattern-v.png");
+          background-position: center;
+          background-repeat: repeat;
+          background-size: 5vw;
+        }
+
+        background-image: url("../../images/teamwork.jpg");
+      }
+    }
+  }
+
+  #about_hackathon {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: 5vw 0;
+    padding: 0 5vw;
+    @include tablet-pro {
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      margin: 5vw 0;
+    }
+    @include tablet {
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      margin: 5vw 0;
+    }
+    @include mobile {
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      margin: 5vw 0 10vw 0;
+    }
+
+    .image {
+      width: 38%;
+      background-size: cover;
+      overflow: hidden;
+      background-image: url("../../images/about_hackathon.jpg");
+      .content {
+        width: 100%;
+        background: #001227a1;
+        backdrop-filter: blur(0.2vw);
+        padding: 2vw;
+        h2 {
+          font-family: "poppins", serif;
+          font-size: 2vw;
+          color: $white;
+        }
+        hr {
+          width: 50%;
+        }
+      }
+    }
+    .content {
+      width: 58%;
+      background-repeat: no-repeat;
+      background-position: center;
+      font-family: "Lora", serif;
+      text-align: left;
+      padding: 2vw 0;
+      @include tablet-pro {
+        width: 100%;
+        padding: 3vw 3vw 3vw 3.5vw;
+      }
+      @include tablet {
+        width: 100%;
+        padding: 3vw 7vw 3vw 3.5vw;
+      }
+      @include mobile {
+        width: 100%;
+        padding: 0;
+        // background-position: 110% 0;
+      }
+
+      .main_title,
+      .main_right-heading {
+        color: $pink_red;
+        font-family: "poppins", serif;
+        font-size: 1.5vw;
+        line-height: 3vw;
+        margin-bottom: 1vw;
+        @include laptop {
+          font-size: 3vw;
+          line-height: 4vw;
+          margin-bottom: 2vw;
+        }
+        @include tablet-pro {
+          font-size: 3vw;
+          line-height: 4vw;
+        }
+        @include tablet {
+          font-size: 3.5vw;
+          line-height: 4.5vw;
+        }
+        @include mobile {
+          font-size: 4.5vw;
+          line-height: 6.5vw;
+          margin-bottom: 2vw;
+        }
+      }
+      .subtitle {
+        color: $primary;
+        font-size: 1.5vw;
+        margin-bottom: 1vw;
+        @include laptop {
+          font-size: 2vw;
+          line-height: 3vw;
+        }
+        @include tablet-pro {
+          font-size: 2.5vw;
+          line-height: 3vw;
+        }
+        @include tablet {
+          font-size: 2.8vw;
+          line-height: 4.5vw;
+        }
+        @include mobile {
+          font-size: 4vw;
+          line-height: 6.5vw;
+          margin-bottom: 2vw;
+        }
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 0.5vw 0;
+
+        li {
+          &::before {
+            content: "■";
+            margin-right: 0.5vw;
+            font-size: 0.8vw;
+            color: $primary;
+            @include tablet-pro {
+              font-size: 1vw;
+            }
+            @include tablet {
+              font-size: 2vw;
+            }
+            @include mobile {
+              font-size: 2vw;
+            }
+          }
+          ul.inner_list {
+            padding-left: 0vw;
+            li {
+              margin: 1vw 0;
+              &::before {
+                content: "";
+                margin-right: 0;
+              }
+            }
+          }
+        }
+      }
+
+      p,
+      li,
+      span {
+        text-align: left;
+        margin-bottom: 1vw;
+        font-size: 0.9vw;
+
+        font-family: "Poppins", sans-serif;
+        color: $text_color;
+        @include laptop {
+          font-size: 1.2vw;
+        }
+        @include tablet-pro {
+          font-size: 1.8vw;
+        }
+        @include tablet {
+          font-size: 2.3vw;
+          margin-bottom: 2vw;
+        }
+        @include mobile {
+          font-size: 3.5vw;
+          margin-bottom: 2vw;
+        }
+        strong {
+          color: $primary;
+        }
+        span {
+          &.title {
+            font-weight: 600;
+            color: $primary;
+          }
+          strong {
+            color: #0a4995;
+          }
+        }
+        @include mobile {
+          margin-bottom: 4vw;
+        }
+      }
+      .cta {
+        width: 20vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: "Poppins", sans-serif;
+        margin: 2vw auto;
+        padding: 1.5vw 2vw;
+        outline: none;
+        border: solid 0.1vw $primary;
+        background-color: $primary;
+        color: $white;
+        font-size: 0.9vw;
+        letter-spacing: 0.1vw;
+        font-weight: 600;
+        border-radius: 0.1vw;
+        cursor: pointer;
+        svg {
+          margin-left: 1vw;
+          width: 1vw;
+        }
+
+        @include tablet-pro {
+          padding: 1vw 2vw;
+          font-size: 1.5vw;
+          width: 30vw;
+        }
+        @include tablet {
+          padding: 1vw 2vw;
+          font-size: 2vw;
+          border-radius: 0.5vw;
+          width: 40vw;
+        }
+        @include mobile {
+          padding: 2vw 4vw;
+          font-size: 3.5vw;
+          border-radius: 1vw;
+          width: 60vw;
+        }
+      }
+    }
+
+    &#global_health .image {
+      .vertical {
+        height: 100%;
+        width: 3vw;
+        background-color: #001227;
+        background-image: url("../../images/medpattern-v.png");
+        background-position: center;
+        background-repeat: repeat;
+        background-size: 5vw;
+      }
+
+      background-image: url("../../images/biohazard.jpg");
+    }
+
+    &#earghss {
+      padding-top: 5vw;
+      .image {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        .vertical {
+          height: 100%;
+          width: 3vw;
+          background-color: #001227;
+          background-image: url("../../images/medpattern-v.png");
+          background-position: center;
+          background-repeat: repeat;
+          background-size: 5vw;
+        }
+
+        background-image: url("../../images/bloodsamples.jpg");
+      }
+    }
+
+    &#themes_topics .image {
+      .vertical {
+        height: 100%;
+        width: 3vw;
+        background-color: #001227;
+        background-image: url("../../images/medpattern-v.png");
+        background-position: center;
+        background-repeat: repeat;
+        background-size: 5vw;
+      }
+
+      background-image: url("../../images/residency.jpg");
+    }
+
+    &#summit_approach .image {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      .vertical {
+        height: 100%;
+        width: 3vw;
+        background-color: #001227;
+        background-image: url("../../images/medpattern-v.png");
+        background-position: center;
+        background-repeat: repeat;
+        background-size: 5vw;
+      }
+
+      background-image: url("../../images/research.jpg");
+    }
+
+    &#participants .image {
+      .vertical {
+        height: 100%;
+        width: 3vw;
+        background-color: #001227;
+        background-image: url("../../images/medpattern-v.png");
+        background-position: center;
+        background-repeat: repeat;
+        background-size: 5vw;
+      }
+
+      background-image: url("../../images/testarea.jpg");
+    }
+
+    &#partnership {
+      padding-top: 5vw;
+      .image {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        .vertical {
+          height: 100%;
+          width: 3vw;
+          background-color: #001227;
+          background-image: url("../../images/medpattern-v.png");
+          background-position: center;
+          background-repeat: repeat;
+          background-size: 5vw;
+        }
+
+        background-image: url("../../images/teamwork.jpg");
+      }
+    }
+  }
+
+  #datetime {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5vw 0;
+    padding: 0 5vw;
+    // @include tablet-pro {
+    //   flex-direction: column;
+    //   flex-wrap: wrap;
+    //   align-items: center;
+    //   justify-content: flex-start;
+    //   margin: 5vw 0;
+    // }
+    // @include tablet {
+    //   flex-direction: column;
+    //   flex-wrap: wrap;
+    //   align-items: center;
+    //   justify-content: flex-start;
+    //   margin: 5vw 0;
+    // }
+    // @include mobile {
+    //   flex-direction: column;
+    //   flex-wrap: wrap;
+    //   align-items: center;
+    //   justify-content: flex-start;
+    //   margin: 5vw 0 10vw 0;
+    // }
+    .main_title {
+      width: 100%;
+      text-align: center;
+      font-family: "poppins", serif;
+      font-size: 2vw;
+      color: $title_color;
+    }
+
+    hr {
+      width: 25%;
+      outline: none;
+      border: none;
+      height: 0.2vw;
+      background-color: $title_color;
+    }
+
+    .content {
+      width: 100%;
+      margin-top: 2vw;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      .item {
+        width: 19%;
+        height: 19vw;
+        margin-bottom: 2vw;
+        padding: 2vw;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        &:nth-child(even) {
+          background-image: url("../../images/Timeline\ and\ Key\ Dates\ banners-02.png");
+          hr {
+            width: 90%;
+            height: 0.15vw;
+            margin: 1vw 0;
+            background-color: $mustard;
+          }
+        }
+        &:nth-child(odd) {
+          background-image: url("../../images/Timeline\ and\ Key\ Dates\ banners-02.png");
+          background-image: url("../../images/Timeline\ and\ Key\ Dates\ banners-01.png");
+          hr {
+            width: 90%;
+            height: 0.15vw;
+            margin: 1vw 0;
+            background-color: $white;
+          }
+        }
+        .top {
+          color: white;
+          font-family: "lora";
+          .twenty {
+            font-size: 3vw;
+          }
+          .date {
+            display: flex;
+            align-items: center;
+            p {
+              font-size: 3vw;
+              margin-right: 1vw;
+              line-height: 1vw;
+            }
+            .month {
+              p {
+                font-size: 1.2vw;
+                line-height: 1.4vw;
+              }
+            }
+          }
+        }
+        .todo {
+          p {
+            color: $white;
+            font-family: "poppins", serif;
+          }
+        }
+
+        &.main {
+          padding: 2vw 1vw;
+          div {
+            border-left: solid 0.15vw $white;
+            padding: 1vw;
+          }
+          .title {
+            font-size: 1.2vw;
+            font-family: "poppins", serif;
+            color: $white;
+          }
+          .content {
+            color: $white;
+            font-size: 0.9vw;
+            font-family: "poppins", serif;
+            margin-top: 1vw;
+          }
+        }
+      }
+    }
+  }
+
+  #how_to_apply {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: 5vw 0;
+    padding: 0 5vw;
+    @include tablet-pro {
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      margin: 5vw 0;
+    }
+    @include tablet {
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      margin: 5vw 0;
+    }
+    @include mobile {
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      margin: 5vw 0 10vw 0;
+    }
+
+    .image {
+      width: 38%;
+      background-size: contain;
+      overflow: hidden;
+      background-image: url("../../images/edit.png");
+      background-position: left;
+      background-repeat: no-repeat;
+      display: grid;
+      place-items: center;
+      .content {
+        width: 50%;
+        background: #001227a1;
+        backdrop-filter: blur(0.2vw);
+        padding: 2vw;
+        h2 {
+          font-family: "GlitchDemo", serif;
+          font-size: 3.5vw;
+          color: $white;
+          line-height: 4vw;
+          font-weight: 400;
+        }
+        hr {
+          width: 100%;
+        }
+      }
+    }
+    .content {
+      width: 58%;
+      background-repeat: no-repeat;
+      background-position: center;
+      font-family: "Lora", serif;
+      text-align: left;
+      padding: 2vw 0;
+      @include tablet-pro {
+        width: 100%;
+        padding: 3vw 3vw 3vw 3.5vw;
+      }
+      @include tablet {
+        width: 100%;
+        padding: 3vw 7vw 3vw 3.5vw;
+      }
+      @include mobile {
+        width: 100%;
+        padding: 0;
+        // background-position: 110% 0;
+      }
+
+      .main_title,
+      .main_right-heading {
+        color: $pink_red;
+        font-family: "poppins", serif;
+        font-size: 1.3vw;
+        line-height: 3vw;
+        margin-bottom: 0.5vw;
+        @include laptop {
+          font-size: 3vw;
+          line-height: 4vw;
+          margin-bottom: 2vw;
+        }
+        @include tablet-pro {
+          font-size: 3vw;
+          line-height: 4vw;
+        }
+        @include tablet {
+          font-size: 3.5vw;
+          line-height: 4.5vw;
+        }
+        @include mobile {
+          font-size: 4.5vw;
+          line-height: 6.5vw;
+          margin-bottom: 2vw;
+        }
+      }
+      .subtitle {
+        color: $primary;
+        font-size: 1.5vw;
+        margin-bottom: 1vw;
+        @include laptop {
+          font-size: 2vw;
+          line-height: 3vw;
+        }
+        @include tablet-pro {
+          font-size: 2.5vw;
+          line-height: 3vw;
+        }
+        @include tablet {
+          font-size: 2.8vw;
+          line-height: 4.5vw;
+        }
+        @include mobile {
+          font-size: 4vw;
+          line-height: 6.5vw;
+          margin-bottom: 2vw;
+        }
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 0.5vw 0;
+
+        li.mustard {
+          &::before {
+            content: "■";
+            margin-right: 0.5vw;
+            font-size: 0.8vw;
+            color: $mustard;
+            margin-left: 2vw;
+            @include tablet-pro {
+              font-size: 1vw;
+            }
+            @include tablet {
+              font-size: 2vw;
+            }
+            @include mobile {
+              font-size: 2vw;
+            }
+          }
+          ul.inner_list {
+            padding-left: 0vw;
+            li {
+              margin: 1vw 0;
+              &::before {
+                content: "";
+                margin-right: 0;
+              }
+            }
+          }
+        }
+      }
+
+      p,
+      li,
+      span {
+        text-align: left;
+        margin-bottom: 0.7vw;
+        font-size: 0.9vw;
+
+        font-family: "Poppins", sans-serif;
+        color: $text_color;
+        @include laptop {
+          font-size: 1.2vw;
+        }
+        @include tablet-pro {
+          font-size: 1.8vw;
+        }
+        @include tablet {
+          font-size: 2.3vw;
+          margin-bottom: 2vw;
+        }
+        @include mobile {
+          font-size: 3.5vw;
+          margin-bottom: 2vw;
+        }
+        strong {
+          color: $primary;
+        }
+        span {
+          &.title {
+            font-weight: 600;
+            color: $primary;
+          }
+          strong {
+            color: #0a4995;
+          }
+        }
+        @include mobile {
+          margin-bottom: 4vw;
+        }
+      }
+      .cta {
+        width: 20vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: "Poppins", sans-serif;
+        margin: 2vw auto;
+        padding: 1.5vw 2vw;
+        outline: none;
+        border: solid 0.1vw $primary;
+        background-color: $primary;
+        color: $white;
+        font-size: 0.9vw;
+        letter-spacing: 0.1vw;
+        font-weight: 600;
+        border-radius: 0.1vw;
+        cursor: pointer;
+        svg {
+          margin-left: 1vw;
+          width: 1vw;
+        }
+
+        @include tablet-pro {
+          padding: 1vw 2vw;
+          font-size: 1.5vw;
+          width: 30vw;
+        }
+        @include tablet {
+          padding: 1vw 2vw;
+          font-size: 2vw;
+          border-radius: 0.5vw;
+          width: 40vw;
+        }
+        @include mobile {
+          padding: 2vw 4vw;
+          font-size: 3.5vw;
+          border-radius: 1vw;
+          width: 60vw;
+        }
+      }
+    }
+  }
+
+  #judging_criteria {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: 5vw 0;
+    padding: 0 5vw;
+    @include tablet-pro {
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      margin: 5vw 0;
+    }
+    @include tablet {
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      margin: 5vw 0;
+    }
+    @include mobile {
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      margin: 5vw 0 10vw 0;
+    }
+
+    .image {
+      width: 55%;
+      background-size: cover;
+      overflow: hidden;
+      background-image: url("../../images/medical_background.jpg");
+      background-position: center;
+      display: grid;
+      place-items: center;
+      .content {
+        width: 60%;
+        background: #063d1ed2;
+        // backdrop-filter: blur(0.2vw);
+        padding: 1vw 2vw;
+        h2 {
+          font-family: "GlitchDemo", serif;
+          text-align: center;
+          font-size: 6vw;
+          color: $white;
+          font-weight: 400;
+          letter-spacing: 0.5vw;
+        }
+        hr {
+          width: 100%;
+        }
+      }
+    }
+    .content {
+      width: 45%;
+      background-repeat: no-repeat;
+      background-position: center;
+      font-family: "Lora", serif;
+      text-align: left;
+      padding: 3vw 2vw;
+      background-color: #125b34;
+      @include tablet-pro {
+        width: 100%;
+        padding: 3vw 3vw 3vw 3.5vw;
+      }
+      @include tablet {
+        width: 100%;
+        padding: 3vw 7vw 3vw 3.5vw;
+      }
+      @include mobile {
+        width: 100%;
+        padding: 0;
+      }
+
+      .main_title {
+        color: $mustard;
+        font-family: "poppins", sans-serif;
+        font-size: 1.5vw;
+      }
+
+      .subtitle {
+        margin: 1vw 0;
+        font-family: "poppins", sans-serif;
+        font-size: 1vw;
+        color: $white;
+        font-weight: 400;
+      }
+
+      .quiz {
+        color: $mustard;
+        font-family: "poppins", serif;
+        font-size: 1vw;
+      }
+      p {
+        text-align: left;
+        margin-bottom: 0.5;
+        font-size: 0.9vw;
+        margin-left: 2vw;
+        font-family: "Poppins", sans-serif;
+        color: $white;
+        @include laptop {
+          font-size: 1.2vw;
+        }
+        @include tablet-pro {
+          font-size: 1.8vw;
+        }
+        @include tablet {
+          font-size: 2.3vw;
+          margin-bottom: 2vw;
+        }
+        @include mobile {
+          font-size: 3.5vw;
+          margin-bottom: 2vw;
+        }
+        strong {
+          color: $primary;
+        }
+        span {
+          &.title {
+            font-weight: 600;
+            color: $primary;
+          }
+          strong {
+            color: #0a4995;
+          }
+        }
+        @include mobile {
+          margin-bottom: 4vw;
+        }
+      }
+    }
+  }
+
+  #faqs {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: 5vw 0;
+    padding: 0 5vw;
+    @include tablet-pro {
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      margin: 5vw 0;
+    }
+    @include tablet {
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      margin: 5vw 0;
+    }
+    @include mobile {
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      margin: 5vw 0 10vw 0;
+    }
+
+    .image {
+      width: 48%;
+      background-size: cover;
+      overflow: hidden;
+      background-image: url("../../images/guidelines.jpg");
+      background-position: center;
+      display: grid;
+      place-items: center;
+      .content {
+        width: 60%;
+        background: #063d1ed2;
+        // backdrop-filter: blur(0.2vw);
+        padding: 1vw 2vw;
+        h2 {
+          font-family: "GlitchDemo", serif;
+          text-align: center;
+          font-size: 6vw;
+          color: $white;
+          font-weight: 400;
+          letter-spacing: 0.5vw;
+        }
+        hr {
+          width: 100%;
+        }
+      }
+    }
+    .content {
+      width: 48%;
+      background-repeat: no-repeat;
+      background-position: center;
+      font-family: "Lora", serif;
+      text-align: left;
+      padding: 2vw 0;
+      @include tablet-pro {
+        width: 100%;
+        padding: 3vw 3vw 3vw 3.5vw;
+      }
+      @include tablet {
+        width: 100%;
+        padding: 3vw 7vw 3vw 3.5vw;
+      }
+      @include mobile {
+        width: 100%;
+        padding: 0;
+      }
+
+      .quiz {
+        color: $mustard;
+        font-family: "poppins", serif;
+        font-size: 1vw;
+        line-height: 3vw;
+        @include laptop {
+          font-size: 3vw;
+          line-height: 4vw;
+          margin-bottom: 2vw;
+        }
+        @include tablet-pro {
+          font-size: 3vw;
+          line-height: 4vw;
+        }
+        @include tablet {
+          font-size: 3.5vw;
+          line-height: 4.5vw;
+        }
+        @include mobile {
+          font-size: 4.5vw;
+          line-height: 6.5vw;
+          margin-bottom: 2vw;
+        }
+      }
+      p {
+        text-align: left;
+        margin-bottom: 1vw;
+        font-size: 0.9vw;
+        margin-left: 2vw;
+        font-family: "Poppins", sans-serif;
+        color: $text_color;
+        @include laptop {
+          font-size: 1.2vw;
+        }
+        @include tablet-pro {
+          font-size: 1.8vw;
+        }
+        @include tablet {
+          font-size: 2.3vw;
+          margin-bottom: 2vw;
+        }
+        @include mobile {
+          font-size: 3.5vw;
+          margin-bottom: 2vw;
+        }
+        strong {
+          color: $primary;
+        }
+        span {
+          &.title {
+            font-weight: 600;
+            color: $primary;
+          }
+          strong {
+            color: #0a4995;
+          }
+        }
+        @include mobile {
+          margin-bottom: 4vw;
+        }
+      }
+    }
+  }
+
+  #sponsors {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: 5vw 0;
+    padding: 0 5vw;
+    @include tablet-pro {
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      margin: 5vw 0;
+    }
+    @include tablet {
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      margin: 5vw 0;
+    }
+    @include mobile {
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      margin: 5vw 0 10vw 0;
+    }
+
+    .image {
+      width: 38%;
+      background-size: contain;
+      overflow: hidden;
+      background-image: url("../../images/partners_sponsors.png");
+      background-position: left;
+      background-repeat: no-repeat;
+      display: grid;
+      place-items: center;
+      flex-grow: 1;
+      .content {
+        width: 50%;
+        background: #001227a1;
+        backdrop-filter: blur(0.2vw);
+        padding: 2vw;
+        h2 {
+          font-family: "GlitchDemo", serif;
+          font-size: 3.5vw;
+          color: $white;
+          line-height: 4vw;
+          font-weight: 400;
+        }
+        hr {
+          width: 100%;
+        }
+      }
+    }
+    .content {
+      width: 65%;
+      background-repeat: no-repeat;
+      background-position: center;
+      font-family: "Lora", serif;
+      text-align: left;
+
+      // background-color: $title_color;
+      @include tablet-pro {
+        width: 100%;
+        padding: 3vw 3vw 3vw 3.5vw;
+      }
+      @include tablet {
+        width: 100%;
+        padding: 3vw 7vw 3vw 3.5vw;
+      }
+      @include mobile {
+        width: 100%;
+        padding: 0;
+        // background-position: 110% 0;
+      }
+
+      .internal {
+        background-color: $title_color;
+        padding: 2vw;
+        .main_title,
+        .main_right-heading {
+          color: $white;
+          font-family: "poppins", serif;
+          font-size: 1.3vw;
+          line-height: 3vw;
+          margin-bottom: 0.5vw;
+          @include laptop {
+            font-size: 3vw;
+            line-height: 4vw;
+            margin-bottom: 2vw;
+          }
+          @include tablet-pro {
+            font-size: 3vw;
+            line-height: 4vw;
+          }
+          @include tablet {
+            font-size: 3.5vw;
+            line-height: 4.5vw;
+          }
+          @include mobile {
+            font-size: 4.5vw;
+            line-height: 6.5vw;
+            margin-bottom: 2vw;
+          }
+        }
+
+        ul {
+          list-style-type: none;
+          margin: 0.5vw 0;
+
+          li {
+            color: $white;
+            font-family: "poppins", serif;
+            strong {
+              color: $mustard;
+            }
+          }
+
+          li.mustard {
+            &::before {
+              content: "■";
+              margin-right: 0.5vw;
+              font-size: 0.8vw;
+              color: $mustard;
+              margin-left: 2vw;
+              @include tablet-pro {
+                font-size: 1vw;
+              }
+              @include tablet {
+                font-size: 2vw;
+              }
+              @include mobile {
+                font-size: 2vw;
+              }
+              strong {
+                color: $mustard;
+              }
+            }
+            ul.inner_list {
+              padding-left: 0vw;
+              li {
+                margin: 1vw 0;
+                &::before {
+                  content: "";
+                  margin-right: 0;
+                }
+              }
+            }
+          }
+        }
+
+        p {
+          text-align: left;
+          margin-bottom: 0.7vw;
+          font-size: 0.9vw;
+
+          font-family: "Poppins", sans-serif;
+          color: $white;
+          @include laptop {
+            font-size: 1.2vw;
+          }
+          @include tablet-pro {
+            font-size: 1.8vw;
+          }
+          @include tablet {
+            font-size: 2.3vw;
+            margin-bottom: 2vw;
+          }
+          @include mobile {
+            font-size: 3.5vw;
+            margin-bottom: 2vw;
+          }
+          strong {
+            color: $mustard;
+          }
+          span {
+            &.title {
+              font-weight: 600;
+              color: $primary;
+            }
+            strong {
+              color: $mustard;
+            }
+          }
+          @include mobile {
+            margin-bottom: 4vw;
+          }
+        }
+      }
+
+      .sponsors {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        img {
+          width: 18%;
+        }
+      }
+    }
+  }
+
+  #mentorship_program {
+    width: 100%;
+    height: 25vw;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: 5vw 0;
+    padding: 0 5vw;
+    background-image: url("../../images/mentorship_banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    @include tablet-pro {
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      margin: 5vw 0;
+    }
+    @include tablet {
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      margin: 5vw 0;
+    }
+    @include mobile {
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      margin: 5vw 0 10vw 0;
+    }
+
+    .content {
+      width: 60%;
+      background-repeat: no-repeat;
+      background-position: center;
+      font-family: "Lora", serif;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      padding: 2vw 0;
+      @include tablet-pro {
+        width: 100%;
+        padding: 3vw 3vw 3vw 3.5vw;
+      }
+      @include tablet {
+        width: 100%;
+        padding: 3vw 7vw 3vw 3.5vw;
+      }
+      @include mobile {
+        width: 100%;
+        padding: 0;
+      }
+
+      .quiz {
+        color: $mustard;
+        font-family: "poppins", serif;
+        font-size: 1.2vw;
+        line-height: 3vw;
+        @include laptop {
+          font-size: 3vw;
+          line-height: 4vw;
+          margin-bottom: 2vw;
+        }
+        @include tablet-pro {
+          font-size: 3vw;
+          line-height: 4vw;
+        }
+        @include tablet {
+          font-size: 3.5vw;
+          line-height: 4.5vw;
+        }
+        @include mobile {
+          font-size: 4.5vw;
+          line-height: 6.5vw;
+          margin-bottom: 2vw;
+        }
+      }
+      p {
+        text-align: left;
+        margin-bottom: 1vw;
+        font-size: 1vw;
+        margin-left: 2vw;
+        font-family: "Poppins", sans-serif;
+        color: $white;
+        @include laptop {
+          font-size: 1.2vw;
+        }
+        @include tablet-pro {
+          font-size: 1.8vw;
+        }
+        @include tablet {
+          font-size: 2.3vw;
+          margin-bottom: 2vw;
+        }
+        @include mobile {
+          font-size: 3.5vw;
+          margin-bottom: 2vw;
+        }
+        strong {
+          color: $primary;
+        }
+        span {
+          &.title {
+            font-weight: 600;
+            color: $primary;
+          }
+          strong {
+            color: #0a4995;
+          }
+        }
+        @include mobile {
+          margin-bottom: 4vw;
+        }
+      }
+    }
+  }
+
+  #pitching_guidelines {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: 5vw 0;
+    padding: 0 5vw;
+    @include tablet-pro {
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      margin: 5vw 0;
+    }
+    @include tablet {
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      margin: 5vw 0;
+    }
+    @include mobile {
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      margin: 5vw 0 10vw 0;
+    }
+
+    .image {
+      width: 48%;
+      background-size: cover;
+      overflow: hidden;
+      background-image: url("../../images/pitching_day.jpg");
+      background-position: center;
+      display: grid;
+      place-items: center;
+      .content {
+        width: 50%;
+        background: #001227a1;
+        backdrop-filter: blur(0.2vw);
+        padding: 2vw;
+        h2 {
+          font-family: "GlitchDemo", serif;
+          font-size: 3.5vw;
+          color: $white;
+          line-height: 4vw;
+          font-weight: 400;
+        }
+        hr {
+          width: 100%;
+        }
+      }
+    }
+    .content {
+      width: 48%;
+      background-repeat: no-repeat;
+      background-position: center;
+      font-family: "Lora", serif;
+      text-align: left;
+      padding: 2vw 0;
+      @include tablet-pro {
+        width: 100%;
+        padding: 3vw 3vw 3vw 3.5vw;
+      }
+      @include tablet {
+        width: 100%;
+        padding: 3vw 7vw 3vw 3.5vw;
+      }
+      @include mobile {
+        width: 100%;
+        padding: 0;
+        // background-position: 110% 0;
+      }
+
+      .main_title,
+      .main_right-heading {
+        color: $pink_red;
+        font-family: "poppins", serif;
+        font-size: 1.3vw;
+        line-height: 3vw;
+        margin-bottom: 1vw;
+        @include laptop {
+          font-size: 3vw;
+          line-height: 4vw;
+          margin-bottom: 2vw;
+        }
+        @include tablet-pro {
+          font-size: 3vw;
+          line-height: 4vw;
+        }
+        @include tablet {
+          font-size: 3.5vw;
+          line-height: 4.5vw;
+        }
+        @include mobile {
+          font-size: 4.5vw;
+          line-height: 6.5vw;
+          margin-bottom: 2vw;
+        }
+      }
+      .subtitle {
+        color: $primary;
+        font-size: 1.5vw;
+        margin-bottom: 1vw;
+        @include laptop {
+          font-size: 2vw;
+          line-height: 3vw;
+        }
+        @include tablet-pro {
+          font-size: 2.5vw;
+          line-height: 3vw;
+        }
+        @include tablet {
+          font-size: 2.8vw;
+          line-height: 4.5vw;
+        }
+        @include mobile {
+          font-size: 4vw;
+          line-height: 6.5vw;
+          margin-bottom: 2vw;
+        }
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 0.5vw 0;
+
+        li {
+          &::before {
+            content: "■";
+            margin-right: 0.5vw;
+            font-size: 0.8vw;
+            color: $primary;
+            @include tablet-pro {
+              font-size: 1vw;
+            }
+            @include tablet {
+              font-size: 2vw;
+            }
+            @include mobile {
+              font-size: 2vw;
+            }
+          }
+          ul.inner_list {
+            padding-left: 0vw;
+            li {
+              margin: 1vw 0;
+              &::before {
+                content: "";
+                margin-right: 0;
+              }
+            }
+          }
+        }
+      }
+
+      p,
+      li,
+      span {
+        text-align: left;
+        margin-bottom: 1vw;
+        font-size: 0.9vw;
+
+        font-family: "Poppins", sans-serif;
+        color: $text_color;
+        @include laptop {
+          font-size: 1.2vw;
+        }
+        @include tablet-pro {
+          font-size: 1.8vw;
+        }
+        @include tablet {
+          font-size: 2.3vw;
+          margin-bottom: 2vw;
+        }
+        @include mobile {
+          font-size: 3.5vw;
+          margin-bottom: 2vw;
+        }
+        strong {
+          color: $primary;
+        }
+        span {
+          &.title {
+            font-weight: 600;
+            color: $primary;
+          }
+          strong {
+            color: #0a4995;
+          }
+        }
+        @include mobile {
+          margin-bottom: 4vw;
+        }
+      }
+      .cta {
+        width: 20vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: "Poppins", sans-serif;
+        margin: 2vw auto;
+        padding: 1.5vw 2vw;
+        outline: none;
+        border: solid 0.1vw $primary;
+        background-color: $primary;
+        color: $white;
+        font-size: 0.9vw;
+        letter-spacing: 0.1vw;
+        font-weight: 600;
+        border-radius: 0.1vw;
+        cursor: pointer;
+        svg {
+          margin-left: 1vw;
+          width: 1vw;
+        }
+
+        @include tablet-pro {
+          padding: 1vw 2vw;
+          font-size: 1.5vw;
+          width: 30vw;
+        }
+        @include tablet {
+          padding: 1vw 2vw;
+          font-size: 2vw;
+          border-radius: 0.5vw;
+          width: 40vw;
+        }
+        @include mobile {
+          padding: 2vw 4vw;
+          font-size: 3.5vw;
+          border-radius: 1vw;
+          width: 60vw;
+        }
+      }
+    }
+  }
+}

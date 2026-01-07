@@ -1,0 +1,60 @@
+.story-nav {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  .links {
+    width: 48%;
+    @include tablet {
+      width: 70%;
+    }
+    @include mobile {
+      width: 100%;
+    }
+    ul {
+      width: 100%;
+      background-color: #c2b59d;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      list-style: none;
+      @include mobile {
+        justify-content: space-evenly;
+      }
+      li {
+        padding: 2vw 1vw;
+        cursor: pointer;
+        @include tablet {
+          padding: 4vw 3vw;
+        }
+        @include mobile {
+          padding: 4vw 3vw;
+          width: 33.3%;
+          text-align: center;
+        }
+        span {
+          color: $secondary;
+          font-weight: 500;
+          font-size: 1vw;
+          font-family: "Montserrat", sans-serif;
+          letter-spacing: 0.1vw;
+          text-transform: uppercase;
+          pointer-events: none;
+          @include tablet {
+            font-size: 1.7vw;
+          }
+          @include mobile {
+            font-size: 3vw;
+          }
+        }
+        &.active {
+          background-color: $secondary;
+          span {
+            color: #c2b59d;
+            pointer-events: none;
+          }
+        }
+      }
+    }
+  }
+}

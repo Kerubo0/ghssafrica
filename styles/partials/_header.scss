@@ -1,0 +1,297 @@
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2vw;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: $white;
+  @include tablet-pro {
+    padding: 0 3vw;
+  }
+  @include tablet {
+    padding: 0 3vw;
+  }
+  @include mobile {
+    padding: 0 5vw;
+  }
+
+  .logo_1 {
+    width: 20%;
+    @include tablet-pro {
+      width: 30%;
+    }
+    @include tablet {
+      width: 15%;
+    }
+    @include mobile {
+      width: 15%;
+    }
+    img {
+      width: 40%;
+      @include tablet {
+        width: 100%;
+      }
+      @include mobile {
+        width: 90%;
+      }
+    }
+  }
+  .menu {
+    width: 80%;
+    @include laptop {
+      width: 80%;
+    }
+    input {
+      display: none;
+      &:checked ~ ul {
+        display: flex;
+      }
+    }
+    label {
+      width: 100%;
+      display: none;
+      cursor: pointer;
+      text-align: center;
+      color: $secondary;
+      @include tablet-pro {
+        display: inline-block;
+      }
+      @include tablet {
+        display: inline-block;
+      }
+      @include mobile {
+        display: inline-block;
+      }
+      span {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-end;
+        font-size: 3.5vw;
+        color: $secondary;
+        @include tablet-pro {
+          font-size: 2vw;
+        }
+        @include tablet {
+          font-size: 2vw;
+        }
+        svg {
+          display: grid;
+          place-items: center;
+          color: $secondary;
+          width: 6vw;
+          @include tablet-pro {
+            width: 3vw;
+          }
+          @include tablet {
+            width: 4vw;
+          }
+        }
+      }
+    }
+    ul {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      list-style-type: none;
+      border-bottom: solid 0.2vw $white;
+
+      @include tablet-pro {
+        width: auto;
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        background-color: $white;
+        padding: 5vw;
+        z-index: 3;
+        justify-content: flex-start;
+        align-items: flex-end;
+        margin-left: 10%;
+        right: 0;
+      }
+
+      @include tablet {
+        width: 50%;
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        background-color: $white;
+        padding: 5vw;
+        z-index: 3;
+        justify-content: flex-start;
+        align-items: flex-end;
+        margin-left: 10%;
+        right: 0;
+      }
+
+      @include mobile {
+        width: 70%;
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        background-color: $white;
+        padding: 5vw;
+        z-index: 3;
+        justify-content: flex-start;
+        align-items: flex-end;
+        margin-left: -15%;
+        right: 0;
+      }
+
+      li {
+        margin: 0 1vw;
+        @include tablet-pro {
+          margin: 1vw 1.5vw;
+        }
+        @include tablet {
+          margin: 2vw 0;
+        }
+        @include mobile {
+          margin: 2.5vw 0;
+          text-align: right;
+        }
+        a,
+        span {
+          text-decoration: none;
+          text-transform: uppercase;
+          font-size: 0.9vw;
+          color: $black;
+          font-family: "Poppins", sans-serif;
+          letter-spacing: 0.1vw;
+          font-weight: 500;
+          padding: 0.5vw 0;
+          display: inline-flex;
+          flex-direction: column;
+          margin-bottom: -2vw;
+          position: relative;
+          color: $blue;
+          &::after {
+            content: ".";
+            text-align: center;
+            margin-top: -2.5vw;
+            font-size: 3vw;
+            color: $white;
+          }
+          @include laptop {
+            font-size: 1.1vw;
+          }
+
+          @include tablet-pro {
+            font-size: 1.5vw;
+          }
+
+          @include tablet {
+            font-size: 2vw;
+          }
+
+          @include mobile {
+            font-size: 3vw;
+            margin-left: 3vw;
+          }
+          &:hover {
+            &::after {
+              color: $mustard;
+            }
+          }
+        }
+
+        label {
+          display: flex;
+          @include tablet-pro {
+            justify-content: right;
+          }
+          @include tablet {
+            justify-content: right;
+          }
+
+          @include mobile {
+            justify-content: right;
+          }
+
+          &::after {
+            display: none;
+          }
+        }
+        #summit-menu {
+          &:checked + .summit-menu {
+            display: flex;
+          }
+        }
+        ul.summit-menu {
+          display: flex;
+          position: absolute;
+          top: 70%;
+          width: auto;
+          padding: 1vw;
+          background-color: $secondary;
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: flex-start;
+          display: none;
+          @include tablet-pro {
+            display: flex;
+            width: 100%;
+            position: static;
+            padding-right: 5vw;
+            flex-direction: column;
+            align-items: flex-end;
+          }
+          @include tablet {
+            display: flex;
+            width: 100%;
+            position: static;
+            padding-right: 7vw;
+            flex-direction: column;
+            align-items: flex-end;
+          }
+          @include mobile {
+            display: flex;
+            width: 100%;
+            position: static;
+            padding-right: 0vw;
+            flex-direction: column;
+            align-items: flex-end;
+          }
+          li {
+            margin: 0.5vw 0;
+            @include tablet-pro {
+              margin: 1vw 0;
+              &::after {
+                content: "-";
+                font-size: 2vw;
+                margin-left: 1vw;
+              }
+            }
+            @include tablet {
+              margin: 1vw 0;
+              &::after {
+                content: "-";
+                font-size: 2vw;
+                margin-left: 1vw;
+              }
+            }
+            @include mobile {
+              margin: 2.5vw 0;
+              &::after {
+                content: "-";
+                font-size: 2vw;
+                margin-left: 1vw;
+              }
+            }
+            a {
+              &:hover {
+                color: $blue;
+              }
+              &::after {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

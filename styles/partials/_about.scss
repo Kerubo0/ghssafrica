@@ -1,0 +1,108 @@
+#about {
+  width: 100%;
+  .content {
+    padding: 5vw;
+    font-family: $raleway;
+    .main_title {
+      color: $secondary;
+      font-size: 2.5vw;
+      @include tablet-pro {
+        font-size: 3vw;
+      }
+      @include tablet {
+        font-size: 3.5vw;
+        line-height: 5vw;
+      }
+      @include mobile {
+        font-size: 5vw;
+        line-height: 6.5vw;
+      }
+      sup {
+        font-size: 1.5vw;
+        font-weight: 700;
+      }
+    }
+    p {
+      font-size: 1.2vw;
+      margin: 1vw 0;
+      line-height: 1.8vw;
+      font-family: $raleway;
+      @include laptop {
+        margin: 1.5vw 0;
+        font-size: 1.5vw;
+        line-height: 2.5vw;
+      }
+      @include tablet-pro {
+        margin: 2vw 0;
+        font-size: 1.8vw;
+        line-height: 3vw;
+      }
+      @include tablet {
+        margin: 4vw 0;
+        font-size: 2.5vw;
+        line-height: 4vw;
+      }
+      @include mobile {
+        margin: 5vw 0;
+        font-size: 3.5vw;
+        line-height: 5.5vw;
+      }
+      strong {
+        color: $blue;
+      }
+      span {
+        font-size: inherit;
+        font-weight: 700;
+      }
+    }
+    button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      text-transform: uppercase;
+      margin: 2vw auto;
+      padding: 1vw 2vw;
+      outline: none;
+      border: solid 0.1vw $mustard;
+      background-color: $mustard;
+      border-radius: 0.1vw;
+      cursor: pointer;
+      @include laptop {
+        padding: 1vw 2vw;
+      }
+      @include tablet-pro {
+        padding: 1.5vw 3vw;
+      }
+      @include tablet {
+        padding: 2vw 4vw;
+      }
+      @include mobile {
+        padding: 3vw 5vw;
+      }
+      span {
+        font-size: 0.8vw;
+        letter-spacing: 0.1vw;
+        font-weight: 900;
+        color: $black;
+        @include laptop {
+          font-size: 1vw;
+        }
+        @include tablet-pro {
+          font-size: 1.5vw;
+        }
+        @include tablet {
+          font-size: 2vw;
+        }
+        @include mobile {
+          font-size: 3.5vw;
+        }
+      }
+      svg {
+        color: $black;
+        margin-left: 0.5vw;
+        width: 0.7vw;
+      }
+    }
+  }
+}

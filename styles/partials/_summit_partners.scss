@@ -1,0 +1,94 @@
+#summit_partners,
+#prefooter_partners {
+  width: 100%;
+  margin: 5vw 0;
+  @include mobile {
+    margin: 20vw 0;
+  }
+
+  .title {
+    margin-bottom: 1vw;
+    h2 {
+      width: 100%;
+      font-size: 3vw;
+      color: $black;
+      text-align: center;
+      font-family: "Lora", serif;
+      @include tablet {
+        font-size: 4vw;
+      }
+      @include mobile {
+        font-size: 6vw;
+      }
+    }
+  }
+
+  .logos {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    @include tablet {
+      flex-wrap: wrap;
+      padding: 0 5vw;
+    }
+    @include mobile {
+      flex-wrap: wrap;
+      padding: 0 5vw;
+    }
+
+    a {
+      display: inline-block;
+      width: 15%;
+      margin: 0 1vw;
+      img {
+        width: 100%;
+      }
+      @include tablet {
+        width: 30%;
+        margin: 0 1.5vw;
+      }
+      @include mobile {
+        width: 32%;
+        margin: 0 1vw;
+      }
+      &.ahb {
+        width: 7%;
+      }
+      &.khf {
+        width: 9%;
+      }
+      &.amref {
+        width: 8%;
+      }
+      &.moh {
+        width: 23%;
+        @include tablet {
+          width: 35%;
+        }
+        @include mobile {
+          width: 45%;
+        }
+      }
+      &.big {
+        width: 5%;
+        @include tablet {
+          width: 8%;
+        }
+        @include mobile {
+          width: 10%;
+        }
+      }
+      &.bigger {
+        width: 10%;
+        @include tablet {
+          width: 20%;
+        }
+        @include mobile {
+          width: 20%;
+        }
+      }
+    }
+  }
+}

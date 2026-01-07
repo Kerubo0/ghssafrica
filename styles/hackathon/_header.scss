@@ -1,0 +1,182 @@
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1vw 2vw;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: $white;
+  border-bottom: 0.3vw solid $mustard;
+  @include laptop {
+  }
+  @include tablet-pro {
+    padding: 2vw 3vw;
+  }
+  @include tablet {
+    padding: 2vw 3vw;
+  }
+  @include mobile {
+    padding: 3vw 5vw;
+  }
+
+  .logo_1 {
+    width: 20%;
+    @include tablet-pro {
+      width: 25%;
+    }
+    @include tablet {
+      width: 20%;
+    }
+    @include mobile {
+      width: 50%;
+    }
+    img {
+      width: 70%;
+      @include tablet {
+        width: 100%;
+      }
+      @include mobile {
+        width: 90%;
+      }
+    }
+  }
+  .menu {
+    width: 60%;
+    // position: relative;
+    @include tablet-pro {
+      width: 70%;
+    }
+    // @include tablet {
+    //   width: 75%;
+    // }
+    input {
+      display: none;
+      &:checked ~ ul {
+        display: flex;
+      }
+    }
+    label {
+      width: 100%;
+      display: none;
+      cursor: pointer;
+      text-align: center;
+      @include tablet {
+        display: inline-block;
+      }
+      @include mobile {
+        display: inline-block;
+      }
+      span {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-end;
+        font-size: 3.5vw;
+        color: $primary;
+        @include tablet {
+          font-size: 2vw;
+        }
+        svg {
+          display: grid;
+          place-items: center;
+          color: black;
+          width: 6vw;
+          @include tablet {
+            width: 4vw;
+          }
+        }
+      }
+    }
+
+    ul {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      list-style-type: none;
+      border-bottom: solid 0.2vw $white;
+      @include tablet {
+        width: 50%;
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        background-color: $white;
+        padding: 5vw;
+        z-index: 3;
+        justify-content: flex-start;
+        align-items: flex-end;
+        margin-left: 10%;
+      }
+
+      @include mobile {
+        width: 50%;
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        background-color: $white;
+        padding: 5vw;
+        z-index: 3;
+        justify-content: flex-start;
+        align-items: flex-end;
+        margin-left: 7%;
+      }
+
+      li {
+        margin: 0 1vw;
+        @include tablet-pro {
+          margin: 0 1.5vw;
+        }
+        @include tablet {
+          margin: 2vw 0;
+        }
+        @include mobile {
+          margin: 2vw 0;
+          text-align: right;
+        }
+        a {
+          text-decoration: none;
+          text-transform: uppercase;
+          font-size: 0.9vw;
+          color: $mustard;
+          font-family: "Poppins", sans-serif;
+          letter-spacing: 0.1vw;
+          font-weight: 500;
+          padding: 0.5vw 0;
+          display: inline-flex;
+          flex-direction: column;
+          margin-bottom: -2vw;
+          // &::after {
+          //   content: ".";
+          //   text-align: center;
+          //   margin-top: -2.5vw;
+          //   font-size: 3vw;
+          //   color: #fff;
+          // }
+          @include laptop {
+            font-size: 1.1vw;
+          }
+
+          @include tablet-pro {
+            font-size: 1.2vw;
+          }
+
+          @include tablet {
+            font-size: 2vw;
+          }
+
+          @include mobile {
+            font-size: 3vw;
+            margin-left: 3vw;
+          }
+          &:hover {
+            &::after {
+              color: #0a4995;
+            }
+            color: $black;
+          }
+        }
+      }
+    }
+  }
+}

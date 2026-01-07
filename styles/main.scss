@@ -1,0 +1,57 @@
+@use "partials/global" as *;
+
+body {
+  width: 100%;
+  height: auto;
+
+  main {
+    width: 100%;
+    height: inherit;
+    @import "partials/header";
+    @import "partials/hero-variant";
+    @import "partials/post-hero";
+    @import "partials/about";
+    @import "partials/executive-summary";
+    @import "partials/background";
+    @import "partials/pillars";
+    @import "partials/partnerships";
+    @import "partials/objectives";
+    @import "partials/expectations";
+    @import "partials/themes";
+    @import "partials/structure-n-approach";
+    @import "partials/sponsorship";
+    @import "partials/gallery-grid";
+    @import "partials/contact";
+    @import "partials/footer";
+    @import "partials/register_popup";
+    .last {
+      height: 5vw;
+      width: 100%;
+      background-image: url("../../images/blue-medpattern.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      @include laptop {
+        height: 5vw;
+      }
+      @include tablet-pro {
+        height: 7vw;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+      @include tablet {
+        height: 10vw;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      @include mobile {
+        height: 15vw;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    }
+  }
+}

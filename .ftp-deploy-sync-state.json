@@ -1,0 +1,1255 @@
+{
+    "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
+    "version": "1.0.0",
+    "generatedTime": 1766590765293,
+    "data": [
+        {
+            "type": "file",
+            "name": ".htaccess",
+            "size": 380,
+            "hash": "fa8832213d8b8bbb5c24dd3205a9f5a5857be901b4ee35a67377a26173c32c6e"
+        },
+        {
+            "type": "file",
+            "name": "LICENSE",
+            "size": 1071,
+            "hash": "ba414fbef8b14c0304e636d69af86529198f552a64177b8824a590c92da09025"
+        },
+        {
+            "type": "file",
+            "name": "Makefile",
+            "size": 31,
+            "hash": "95fb1d41d095b37960ca0393be6ae6a664b84efc8e76cdec4f5310c0f6509359"
+        },
+        {
+            "type": "file",
+            "name": "README.md",
+            "size": 101,
+            "hash": "42568e6a526ef0d792eeac4207a5dba47d922ee97844cd55cdca46c574b9ae07"
+        },
+        {
+            "type": "file",
+            "name": "bootcamp.html",
+            "size": 31103,
+            "hash": "e855683c5cb5ec25ab0658d88612b91e3bea454e65ff975b24a18421f6368098"
+        },
+        {
+            "type": "file",
+            "name": "dialogue.html",
+            "size": 25549,
+            "hash": "6214f50609ab67b74e1d689f4fccf5f516d71742c9e6b51a9c4308da8543ca2b"
+        },
+        {
+            "type": "folder",
+            "name": "documents"
+        },
+        {
+            "type": "folder",
+            "name": "images"
+        },
+        {
+            "type": "file",
+            "name": "index.html",
+            "size": 57834,
+            "hash": "b9a190621b20de55c37f694e2b258f8f2deaa616308f6f9751d3b56209f75bd3"
+        },
+        {
+            "type": "folder",
+            "name": "js"
+        },
+        {
+            "type": "file",
+            "name": "resources.html",
+            "size": 33567,
+            "hash": "abe3564e0b4bfe0df345615a5c63a9d1e79d35e237bf01c7350e64a11e0733ca"
+        },
+        {
+            "type": "folder",
+            "name": "styles"
+        },
+        {
+            "type": "file",
+            "name": ".git/FETCH_HEAD",
+            "size": 132,
+            "hash": "a906296c374a4d90248c21e071bd89bef6f89b0968cc3565f0f2d088723746c5"
+        },
+        {
+            "type": "file",
+            "name": ".git/HEAD",
+            "size": 21,
+            "hash": "28d25bf82af4c0e2b72f50959b2beb859e3e60b9630a5e8c603dad4ddb2b6e80"
+        },
+        {
+            "type": "file",
+            "name": ".git/config",
+            "size": 421,
+            "hash": "5fcb070a75eb0cf76414ba262174b1bc1348657dbffc693cb19765fc7c385253"
+        },
+        {
+            "type": "file",
+            "name": ".git/config.worktree",
+            "size": 83,
+            "hash": "443a5f645c23c3d0c0aa09f634b2ad111d46ef61946b598a2fb311678ab47454"
+        },
+        {
+            "type": "file",
+            "name": ".git/description",
+            "size": 73,
+            "hash": "85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee"
+        },
+        {
+            "type": "folder",
+            "name": ".git/hooks"
+        },
+        {
+            "type": "file",
+            "name": ".git/index",
+            "size": 16557,
+            "hash": "dc04ba425bf39deed8dc31150c87a9a183e099033de9cdb37a2c03fa64b55e96"
+        },
+        {
+            "type": "folder",
+            "name": ".git/info"
+        },
+        {
+            "type": "folder",
+            "name": ".git/logs"
+        },
+        {
+            "type": "folder",
+            "name": ".git/objects"
+        },
+        {
+            "type": "folder",
+            "name": ".git/refs"
+        },
+        {
+            "type": "file",
+            "name": ".git/shallow",
+            "size": 41,
+            "hash": "16363cf16406a27c35b8253d9e0377c205528547271c063a7120bdc22fecf911"
+        },
+        {
+            "type": "folder",
+            "name": ".github/workflows"
+        },
+        {
+            "type": "file",
+            "name": "documents/logistics-note-2026.pdf",
+            "size": 1738640,
+            "hash": "9eb3c5094ec555dcb021abc9c0dae3c32432ed7a7dab4fefce3cbdab0227ec9a"
+        },
+        {
+            "type": "file",
+            "name": "images/AHBL Main Logo 2020.png",
+            "size": 105157,
+            "hash": "d0b55d2cc00d8028b6aa944520044ac414b6d1455c68897454ab95da241d79c0"
+        },
+        {
+            "type": "file",
+            "name": "images/DNDi_Logo_EN_Full Colour_margins.jpg",
+            "size": 66423,
+            "hash": "d37a5171dcea78655726b2e25041a8a7cbaac496d3ff040fd0c810fe0539d7e0"
+        },
+        {
+            "type": "file",
+            "name": "images/EARGHSS ICONS-01.png",
+            "size": 342273,
+            "hash": "3fbd619162d4f6446d8c1d8687f83e6e5f7ac667602a394e9e1877656cdf6682"
+        },
+        {
+            "type": "file",
+            "name": "images/EARGHSS ICONS-02.png",
+            "size": 381294,
+            "hash": "83ddb7e1ed609309442eb45c046433220e27bb47dc978e417133465d046cc699"
+        },
+        {
+            "type": "file",
+            "name": "images/EARGHSS ICONS-03.png",
+            "size": 371792,
+            "hash": "bdf91e33e0d386c17178f6349b19a46ef7bfd5f33945ea70bdf4c672cd901717"
+        },
+        {
+            "type": "file",
+            "name": "images/EARGHSS PARTNER LOGOS_CHPF.png",
+            "size": 130842,
+            "hash": "3797fad69bf0595e05ad75d6f0b0fbc78ed3a3fd64dc6d84aee90549702dffb0"
+        },
+        {
+            "type": "file",
+            "name": "images/EARGHSS PARTNER LOGOS_ECSA.svg",
+            "size": 127082,
+            "hash": "6699998e8ee634d779aa5fbb1378b7d486f263f6598db925fc1da0c1c9b32029"
+        },
+        {
+            "type": "file",
+            "name": "images/EARGHSS PARTNER LOGOS_FAO.svg",
+            "size": 15960,
+            "hash": "597f04ca801a38046398a19d0f45df06b36a70fb4021ebbec0a12841b9a9914a"
+        },
+        {
+            "type": "file",
+            "name": "images/EARGHSS PARTNER LOGOS_KCB.png",
+            "size": 139110,
+            "hash": "08e879cedf57038fb2d44c51df1ce9a73e2d95a143e64b3bb29f91fc335596cb"
+        },
+        {
+            "type": "file",
+            "name": "images/EARGHSS PARTNER LOGOS_project echo .png",
+            "size": 125374,
+            "hash": "a70ac830dd65a0e4685273353e72633750a2fdf053c950a577b067de5920c4ab"
+        },
+        {
+            "type": "file",
+            "name": "images/africacdc.jpg",
+            "size": 676468,
+            "hash": "e48444cb12923ed1ebe53ba60792370db7eae6a49aa0f3dfefa94290fbfbc680"
+        },
+        {
+            "type": "file",
+            "name": "images/aiu.jpg",
+            "size": 959563,
+            "hash": "dbe711bada8a3f94632fab86e91eecb90a711e0c58ccbd91d5a76c64fb27d90a"
+        },
+        {
+            "type": "file",
+            "name": "images/approach-n-content.png",
+            "size": 941443,
+            "hash": "51645fd72e52052b9456650d003f21b4b662ca941eb85625e9bf63d0cf0d1de5"
+        },
+        {
+            "type": "file",
+            "name": "images/blue-medpattern.png",
+            "size": 33868,
+            "hash": "d12bb6e6f06ad33e892aa6c552afb8d73c23d8d9599dde40b35147d37af6c623"
+        },
+        {
+            "type": "file",
+            "name": "images/blue-medpattern.svg",
+            "size": 369891,
+            "hash": "eb19d4eb73b81f787f265f9b58296dec92c46220fde34336ef7c4f227b02d9e8"
+        },
+        {
+            "type": "file",
+            "name": "images/ecsa.png",
+            "size": 21457,
+            "hash": "4a2ab7e09a16333022285f0e9ece91ebb786222b5b77edbf0c26ea12b4374136"
+        },
+        {
+            "type": "folder",
+            "name": "images/gallery"
+        },
+        {
+            "type": "file",
+            "name": "images/hands.png",
+            "size": 339506,
+            "hash": "bbd332ad9d6ff5831f17a5fc98675b379c107f49aa421f63bf47a85f4ed2b913"
+        },
+        {
+            "type": "file",
+            "name": "images/hero-tools.png",
+            "size": 31546,
+            "hash": "69d68a7fce1adf11471178e3bf2428ea81a00981abf63cb61852a72423ac1552"
+        },
+        {
+            "type": "file",
+            "name": "images/jumuiya.jpg",
+            "size": 892807,
+            "hash": "47f44c3ae08c27020cf1be59dd0f42514c510114416109da07b40cc1afdd1f7a"
+        },
+        {
+            "type": "file",
+            "name": "images/kemri.jpg",
+            "size": 718700,
+            "hash": "bbe7d47ece390a22f6509f88a0ba86f8e4759520abe30967f903248b163959d3"
+        },
+        {
+            "type": "file",
+            "name": "images/kilifi.jpg",
+            "size": 1329004,
+            "hash": "a1103c42ba1679e70a280bb459e049cb486eb0715b1c5877ce865611668fa103"
+        },
+        {
+            "type": "folder",
+            "name": "images/logos"
+        },
+        {
+            "type": "file",
+            "name": "images/ministryofhealth.jpg",
+            "size": 641214,
+            "hash": "dc9422cad4040695554eba3695622604ab902e769b729a41a75673a3da1e7b76"
+        },
+        {
+            "type": "file",
+            "name": "images/money-block.png",
+            "size": 317033,
+            "hash": "30d8d8c4162e04d4bc3bb58a26a755e01d6713181008f2ff670012081b549862"
+        },
+        {
+            "type": "file",
+            "name": "images/new-hero-image.png",
+            "size": 69831,
+            "hash": "8d5b44473df413528b49cc0c8bf1872a09357d3f653aabd08aff4ac6c62b3c4c"
+        },
+        {
+            "type": "file",
+            "name": "images/new-hero.png",
+            "size": 156460,
+            "hash": "8710479fd35aeb01ec8bada6bc3fcf9afab1623aa015eb9a58e89ea6ced505e0"
+        },
+        {
+            "type": "file",
+            "name": "images/objectives.png",
+            "size": 554733,
+            "hash": "4dc87ea0210a9065398dcfdc3bed33694200a54a41b8612e147c0835d54132f6"
+        },
+        {
+            "type": "folder",
+            "name": "images/payments"
+        },
+        {
+            "type": "folder",
+            "name": "images/pillars"
+        },
+        {
+            "type": "file",
+            "name": "images/pwani.jpg",
+            "size": 1210559,
+            "hash": "632ecbb61ebbfb98f2061368f8388ce937233e15eccccc5584641fa7220312f0"
+        },
+        {
+            "type": "file",
+            "name": "images/summit-flow.png",
+            "size": 120091,
+            "hash": "79d5ea17d9d9228e3c52e1c19f24fc35bc21b26de85bfc99693d7c0a7e3aec01"
+        },
+        {
+            "type": "file",
+            "name": "images/themes-n-topics.png",
+            "size": 566936,
+            "hash": "31d31b56f39f6d7cf10df24a661f852860deb496aad1f2d121c1c03b8d04ad8f"
+        },
+        {
+            "type": "file",
+            "name": "images/unmc.jpg",
+            "size": 327453,
+            "hash": "4441607c7b6f8e6e6d3dabd2874ea58012d197ac86a463c17b4e4d54b5a63139"
+        },
+        {
+            "type": "file",
+            "name": "images/vaccine.jpeg",
+            "size": 100502,
+            "hash": "d68dab7955ac9f7304d8993f7acff23516456700a166d9163d4f674f5db37436"
+        },
+        {
+            "type": "file",
+            "name": "images/vaccines.png",
+            "size": 194294,
+            "hash": "2540e4b3472e09727b97047db89c67f27a74a6c11ae408d1e0fa0a9e0bce6742"
+        },
+        {
+            "type": "file",
+            "name": "images/vision2030.jpg",
+            "size": 1353601,
+            "hash": "bb224bf26a48380bd924bc4ce797f30a5fbf31ea638f1c47b9608351d8a9ff77"
+        },
+        {
+            "type": "file",
+            "name": "images/white-medpattern.svg",
+            "size": 369888,
+            "hash": "9a851a4bb4513b2f56a0fa07f82655a680ac9214c2ec3fbf8c7090a87f75e42d"
+        },
+        {
+            "type": "file",
+            "name": "js/resources.js",
+            "size": 579,
+            "hash": "3e29e46e0a807be96882cd9d35ece4bc6b2fe7b923ee23891ca53cdf2a2debda"
+        },
+        {
+            "type": "file",
+            "name": "js/resources.ts",
+            "size": 589,
+            "hash": "952bb823aa96f6e834bd04ebd13e9205116773fb5409d1be0ffa1c7c7e293c84"
+        },
+        {
+            "type": "file",
+            "name": "js/script.js",
+            "size": 9307,
+            "hash": "33b6907621c51d560544e0b46039f89a8d14fb449e8c2c5cdb93e598069ccf49"
+        },
+        {
+            "type": "file",
+            "name": "js/script.ts",
+            "size": 5308,
+            "hash": "7c9731368a244e7cf7ffdce41a411ce8f1c789896c079037d9e47f545ff4e1c8"
+        },
+        {
+            "type": "folder",
+            "name": "styles/bootcamp"
+        },
+        {
+            "type": "file",
+            "name": "styles/bootcamp.css",
+            "size": 107644,
+            "hash": "3dcb36262d0b8d08049f1527f26ea8589d2b29dc2c69b42deeb88ccc2f0be6bf"
+        },
+        {
+            "type": "file",
+            "name": "styles/bootcamp.css.map",
+            "size": 31721,
+            "hash": "8236e6a1f249e106d5ff178e37242d5558994d5e2265a3541d50973be723e819"
+        },
+        {
+            "type": "file",
+            "name": "styles/bootcamp.scss",
+            "size": 339,
+            "hash": "3f45dda8703b3a0cd402e207f06fc38d7110f324b85be5ea87fa30bbddc8220e"
+        },
+        {
+            "type": "folder",
+            "name": "styles/dialogue"
+        },
+        {
+            "type": "file",
+            "name": "styles/dialogue.css",
+            "size": 93536,
+            "hash": "611c12f65ec0f64badb58d8ffccb5601c542db1e4483309a7f41788c2c81a056"
+        },
+        {
+            "type": "file",
+            "name": "styles/dialogue.css.map",
+            "size": 27685,
+            "hash": "a16026f6474ea6e770544bc022435bd0ac3be8daf8167b4a54953f3ff35dad14"
+        },
+        {
+            "type": "file",
+            "name": "styles/dialogue.scss",
+            "size": 339,
+            "hash": "70ac3bda10fee2b3d6443b671c4afb9b5a5d214f97a30eb126613ea67355578c"
+        },
+        {
+            "type": "folder",
+            "name": "styles/hackathon"
+        },
+        {
+            "type": "file",
+            "name": "styles/hackathon.css",
+            "size": 68995,
+            "hash": "da29a0eaefa74088178a47b0c64864a2c78e6be34cf986837b7526205fcae66f"
+        },
+        {
+            "type": "file",
+            "name": "styles/hackathon.css.map",
+            "size": 23140,
+            "hash": "6d617fd32c32d57a8bce26a4d74ea87646839713a66198dc15319ce97937497a"
+        },
+        {
+            "type": "file",
+            "name": "styles/hackathon.scss",
+            "size": 423,
+            "hash": "0d06f930c0c438f5ec950aca01913c85f98554d10e44a2a1dd77abf759b17f4f"
+        },
+        {
+            "type": "file",
+            "name": "styles/main.css",
+            "size": 114153,
+            "hash": "66ce707e18c178c0761b629edf77668a6b7b6cab28d074990b323583b2ad9097"
+        },
+        {
+            "type": "file",
+            "name": "styles/main.css.map",
+            "size": 36913,
+            "hash": "0fa9ec50cbdeed9a2317dcab9254ba791c0c20a44baea68c71ab7384bdae8417"
+        },
+        {
+            "type": "file",
+            "name": "styles/main.scss",
+            "size": 1486,
+            "hash": "c8a3884bab2e20b666035c4d47f9db677832659c624ed523fa448c9cf9815698"
+        },
+        {
+            "type": "folder",
+            "name": "styles/partials"
+        },
+        {
+            "type": "folder",
+            "name": "styles/resources"
+        },
+        {
+            "type": "file",
+            "name": "styles/resources.css",
+            "size": 26470,
+            "hash": "b64580afc5c45d686f56a356ba5fcb1f6c2c3ec898dadc90289fb2d0fbc5c0af"
+        },
+        {
+            "type": "file",
+            "name": "styles/resources.css.map",
+            "size": 9884,
+            "hash": "eda4e9418cd59cc45bec6d415a4da9ca852b0e392d6fb287dd5ba69b88ebed84"
+        },
+        {
+            "type": "file",
+            "name": "styles/resources.scss",
+            "size": 299,
+            "hash": "435147eb01254861af5bb82ac9e1bb82ab41f4bf5622b9c6f4229b3554208ce4"
+        },
+        {
+            "type": "file",
+            "name": ".git/hooks/applypatch-msg.sample",
+            "size": 478,
+            "hash": "0223497a0b8b033aa58a3a521b8629869386cf7ab0e2f101963d328aa62193f7"
+        },
+        {
+            "type": "file",
+            "name": ".git/hooks/commit-msg.sample",
+            "size": 896,
+            "hash": "1f74d5e9292979b573ebd59741d46cb93ff391acdd083d340b94370753d92437"
+        },
+        {
+            "type": "file",
+            "name": ".git/hooks/fsmonitor-watchman.sample",
+            "size": 4726,
+            "hash": "e0549964e93897b519bd8e333c037e51fff0f88ba13e086a331592bf801fa1d0"
+        },
+        {
+            "type": "file",
+            "name": ".git/hooks/post-update.sample",
+            "size": 189,
+            "hash": "81765af2daef323061dcbc5e61fc16481cb74b3bac9ad8a174b186523586f6c5"
+        },
+        {
+            "type": "file",
+            "name": ".git/hooks/pre-applypatch.sample",
+            "size": 424,
+            "hash": "e15c5b469ea3e0a695bea6f2c82bcf8e62821074939ddd85b77e0007ff165475"
+        },
+        {
+            "type": "file",
+            "name": ".git/hooks/pre-commit.sample",
+            "size": 1649,
+            "hash": "57185b7b9f05239d7ab52db045f5b89eb31348d7b2177eab214f5eb872e1971b"
+        },
+        {
+            "type": "file",
+            "name": ".git/hooks/pre-merge-commit.sample",
+            "size": 416,
+            "hash": "d3825a70337940ebbd0a5c072984e13245920cdf8898bd225c8d27a6dfc9cb53"
+        },
+        {
+            "type": "file",
+            "name": ".git/hooks/pre-push.sample",
+            "size": 1374,
+            "hash": "ecce9c7e04d3f5dd9d8ada81753dd1d549a9634b26770042b58dda00217d086a"
+        },
+        {
+            "type": "file",
+            "name": ".git/hooks/pre-rebase.sample",
+            "size": 4898,
+            "hash": "4febce867790052338076f4e66cc47efb14879d18097d1d61c8261859eaaa7b3"
+        },
+        {
+            "type": "file",
+            "name": ".git/hooks/prepare-commit-msg.sample",
+            "size": 1492,
+            "hash": "e9ddcaa4189fddd25ed97fc8c789eca7b6ca16390b2392ae3276f0c8e1aa4619"
+        },
+        {
+            "type": "file",
+            "name": ".git/hooks/pre-receive.sample",
+            "size": 544,
+            "hash": "a4c3d2b9c7bb3fd8d1441c31bd4ee71a595d66b44fcf49ddb310252320169989"
+        },
+        {
+            "type": "file",
+            "name": ".git/hooks/push-to-checkout.sample",
+            "size": 2783,
+            "hash": "a53d0741798b287c6dd7afa64aee473f305e65d3f49463bb9d7408ec3b12bf5f"
+        },
+        {
+            "type": "file",
+            "name": ".git/hooks/sendemail-validate.sample",
+            "size": 2308,
+            "hash": "44ebfc923dc5466bc009602f0ecf067b9c65459abfe8868ddc49b78e6ced7a92"
+        },
+        {
+            "type": "file",
+            "name": ".git/hooks/update.sample",
+            "size": 3650,
+            "hash": "8d5f2fa83e103cf08b57eaa67521df9194f45cbdbcb37da52ad586097a14d106"
+        },
+        {
+            "type": "file",
+            "name": ".git/info/exclude",
+            "size": 240,
+            "hash": "6671fe83b7a07c8932ee89164d1f2793b2318058eb8b98dc5c06ee0a5a3b0ec1"
+        },
+        {
+            "type": "file",
+            "name": ".git/logs/HEAD",
+            "size": 218,
+            "hash": "357426607bd609aa64e125090d4ae098dceb9c8aafb6d74da7567cf6b0ac1f29"
+        },
+        {
+            "type": "folder",
+            "name": ".git/logs/refs"
+        },
+        {
+            "type": "folder",
+            "name": ".git/objects/info"
+        },
+        {
+            "type": "folder",
+            "name": ".git/objects/pack"
+        },
+        {
+            "type": "folder",
+            "name": ".git/refs/heads"
+        },
+        {
+            "type": "folder",
+            "name": ".git/refs/remotes"
+        },
+        {
+            "type": "folder",
+            "name": ".git/refs/tags"
+        },
+        {
+            "type": "file",
+            "name": ".github/workflows/deploy.yaml",
+            "size": 715,
+            "hash": "470adb39513af37b983d9ba6b9a40d6a896fa6020d587d1cd0590123c8a2d8ad"
+        },
+        {
+            "type": "file",
+            "name": "images/gallery/1A656E12-08C5-459D-ACF4-F23894F0E71B_websize.jpg",
+            "size": 496640,
+            "hash": "7a57bcaeb416f0b1a0289c4cdce728996dcac9e90b32943f29d109ba782c02ee"
+        },
+        {
+            "type": "file",
+            "name": "images/gallery/1CD27FDD-520B-4A8B-AA93-DF9D09E10DD5_websize.jpg",
+            "size": 623383,
+            "hash": "0f84d7b0797e732703c4d7b9dbb272f1e84bb18f04c69c402b6f0fe698656577"
+        },
+        {
+            "type": "file",
+            "name": "images/gallery/1D90573A-5882-4121-9160-7192DDDA179B_websize.jpg",
+            "size": 600755,
+            "hash": "8eddaca69170f62b5b5a2bfa2e560153bb707ca7fd142efb20821acfa29ed909"
+        },
+        {
+            "type": "file",
+            "name": "images/gallery/1E31470B-5AB4-4000-842F-577640CD0FA1_websize.jpg",
+            "size": 701843,
+            "hash": "4929a04a8cae3838365c05102d65eb31829bc76841455cf7dcfa01ead4b2ac0c"
+        },
+        {
+            "type": "file",
+            "name": "images/gallery/2267CCBF-0F52-4BCA-8A12-39756FAFEF27_websize.jpg",
+            "size": 509486,
+            "hash": "28097e2eac945492350d3f04bf38ba6827d74dc2d5a6f9378ddb53305a933d92"
+        },
+        {
+            "type": "file",
+            "name": "images/gallery/6D7D1013-A294-4C6D-9BEE-40353F3308AA_websize.jpg",
+            "size": 513190,
+            "hash": "cbd337947a9fb4e4b10c781b9e77c45e5cac1f2340160958c35596f73494692c"
+        },
+        {
+            "type": "file",
+            "name": "images/gallery/735DE3BD-6760-484F-8E3D-43D8760F86AE_websize.jpg",
+            "size": 768221,
+            "hash": "2c29f0526e3ec6da2f6c8184c76e8b5f0bd28eba3e5249a079f6c0eab2ff85e1"
+        },
+        {
+            "type": "file",
+            "name": "images/gallery/8A52B676-311F-4983-B82A-0D34D51FFD47_websize.jpg",
+            "size": 319424,
+            "hash": "714507dabace0ad32cfe957f6a26b0602cb8ef444538cced059271bfe7fe9807"
+        },
+        {
+            "type": "file",
+            "name": "images/gallery/A26I2744_websize.jpg",
+            "size": 924775,
+            "hash": "e3e8cad3fe16f1a2918c4807f3a006f2f6a7aa25ad8d23a79ede035ab267d457"
+        },
+        {
+            "type": "file",
+            "name": "images/gallery/A26I2763_websize.jpg",
+            "size": 635293,
+            "hash": "1630fd22de7306970a523d7ed992a1857ba4bce3b8a8c6cea2b2eab26e250604"
+        },
+        {
+            "type": "file",
+            "name": "images/gallery/A26I2804_websize.jpg",
+            "size": 343883,
+            "hash": "089c438d168d4608f1b2d685701e0068a9c685cecad8e35ae9e13e06a7c99871"
+        },
+        {
+            "type": "file",
+            "name": "images/gallery/A26I4411_websize.jpg",
+            "size": 506996,
+            "hash": "1235f89e6d4fa28b3379375e26a9ccaea4714b6eb5cbfb91e3bc80f52ca709fc"
+        },
+        {
+            "type": "file",
+            "name": "images/gallery/A26I4560_websize.jpg",
+            "size": 910955,
+            "hash": "d4817cd1a9502f4155ebe6609c5fa815dc18a3358b1e7f487919855fd8ce6882"
+        },
+        {
+            "type": "file",
+            "name": "images/gallery/A26I6367_websize.jpg",
+            "size": 442096,
+            "hash": "63e38635b62df4e0352b1d9e382540c72b854b6f81d66ced0a25a138e1ab265b"
+        },
+        {
+            "type": "file",
+            "name": "images/gallery/A26I6824_websize.jpg",
+            "size": 800374,
+            "hash": "34d6b1fb9de9b2f8cafe7d6b32e8c5ab9a62bf4d5a69584e36f27272091d5ee6"
+        },
+        {
+            "type": "file",
+            "name": "images/gallery/A26I7245_websize.jpg",
+            "size": 680963,
+            "hash": "a0760c9cf33912c6236dc7cd5c2eea3aba21a65152c218f4418a70fb8b2ef503"
+        },
+        {
+            "type": "file",
+            "name": "images/gallery/_43A7536_websize.jpg",
+            "size": 772897,
+            "hash": "e9a1bf1cf55f8bd3c06e1c5272c74b51aa2d4b6d48e20fac654f2a7be8389cf2"
+        },
+        {
+            "type": "file",
+            "name": "images/gallery/AdobeStock_857538883.png",
+            "size": 110760,
+            "hash": "76c960603d36c84b5ab12b445f825c57070d81bc8e1a177c3a6b5ceed268d501"
+        },
+        {
+            "type": "file",
+            "name": "images/gallery/_43A7563_websize.jpg",
+            "size": 906512,
+            "hash": "d3fd51bdf6eb899a986b0f294a5efa4378065a8494e0835fb2e7ee7bac823489"
+        },
+        {
+            "type": "file",
+            "name": "images/gallery/business-hands-joined-together-teamwork.jpg",
+            "size": 242481,
+            "hash": "2c1e1652ca766d2f99d0d783ee9b2e32bd21b42bc3c7fcb46aeb85538326af83"
+        },
+        {
+            "type": "file",
+            "name": "images/gallery/digital-medical-infrared-non-contact-thermometer-gun-measuring-temperature.jpg",
+            "size": 175618,
+            "hash": "0134468c4e436405174f66fc9f00a4df43cd1439ade3b1086a9943468195970b"
+        },
+        {
+            "type": "file",
+            "name": "images/gallery/diverse-male-doctors-wearing-face-masks-using-tablet-talking-corridor-hospital.jpg",
+            "size": 165820,
+            "hash": "5489840201b73d805a4356e3c6e5357197966e1af93e19292b14703175992574"
+        },
+        {
+            "type": "file",
+            "name": "images/gallery/doctors-ppe-protective-suit-congestion-swab-covid-coronavirus-covid-19-infection.jpg",
+            "size": 143094,
+            "hash": "c8118536e22863ea5b7d942dad39e0ae68165f400d2f18b50b50e0284e4321e3"
+        },
+        {
+            "type": "file",
+            "name": "images/gallery/woodblock-with-small-tree-stack-coins-concept-environmental-social-governance-icon.jpg",
+            "size": 211869,
+            "hash": "66814ea3b0f007c518418eb90b57779c1f4b403ee6df9f8eae6bf66ec6fcb48e"
+        },
+        {
+            "type": "file",
+            "name": "images/logos/favicon.ico",
+            "size": 16407,
+            "hash": "ced0d7c6462f119fdd13ff98d9705d9859f41ed976bcb8cc8c6a2e11a4e31136"
+        },
+        {
+            "type": "file",
+            "name": "images/logos/favicon.svg",
+            "size": 23848,
+            "hash": "80db242dac754fa93b277d43743ab8154baeb927d47a98e447896d3512a8f219"
+        },
+        {
+            "type": "file",
+            "name": "images/logos/logo-icon.svg",
+            "size": 23855,
+            "hash": "dd5e101be123a05ec7dbf537b32c5cc6dc9232f7839e7803f341a8efe4d5a5d0"
+        },
+        {
+            "type": "file",
+            "name": "images/logos/site-logo-dark.svg",
+            "size": 33506,
+            "hash": "8676cdb845e5d8afd884ab9d2e7be272d71b090b86177ef32407769389f7859b"
+        },
+        {
+            "type": "file",
+            "name": "images/logos/site-logo.svg",
+            "size": 33503,
+            "hash": "5ad922b4555e20d40bd7aa71ff0e203340d6d905faa81e70210213ec441d6c64"
+        },
+        {
+            "type": "folder",
+            "name": "images/logos/sponsors"
+        },
+        {
+            "type": "file",
+            "name": "images/payments/mastercard.png",
+            "size": 15645,
+            "hash": "151972d817e1b19a8e3281026869b5f36d0d512c9bf0b69acd5c5d77a2d01b75"
+        },
+        {
+            "type": "file",
+            "name": "images/payments/mpesa.png",
+            "size": 56892,
+            "hash": "6b34e2699b0ef2d07b09236f6251514263801d4a400a5a822950eadb9a1085b2"
+        },
+        {
+            "type": "file",
+            "name": "images/payments/visa.png",
+            "size": 12024,
+            "hash": "667f5d87a5ee3f0dad597e4ee9495bd8c8ea504755a5ee0e2e8ead8e8a6e9afb"
+        },
+        {
+            "type": "file",
+            "name": "images/pillars/pillar-1.png",
+            "size": 22538,
+            "hash": "d9777a040cc9e6385ad8de866363f24e359e0410ff8ca3a09c33e0877bf3a47c"
+        },
+        {
+            "type": "file",
+            "name": "images/pillars/pillar-2.png",
+            "size": 20585,
+            "hash": "fc6d00b92e02bb3726d21659022eba9a6cbd9a18bb0d9656bd30bc99e5252042"
+        },
+        {
+            "type": "file",
+            "name": "images/pillars/pillar-3.png",
+            "size": 18641,
+            "hash": "91bb58338fd6b7cca9d163990233522e67b1aea694259dbe5041250042c35826"
+        },
+        {
+            "type": "file",
+            "name": "images/pillars/pillar-4.png",
+            "size": 14365,
+            "hash": "865d79bc8619a9bdf01fa23937a2227f5b83cde7a8afd45e54e5989cd9397890"
+        },
+        {
+            "type": "file",
+            "name": "styles/bootcamp/_about.scss",
+            "size": 28468,
+            "hash": "f7fe64483c31d9626ee1612dff9c169408f3930ed260b3c6b66f2b17254315fb"
+        },
+        {
+            "type": "file",
+            "name": "styles/bootcamp/_hero.scss",
+            "size": 7518,
+            "hash": "0c3963347f58ed029afef935187d90315275c870a07b2217fb3192183c328b64"
+        },
+        {
+            "type": "file",
+            "name": "styles/dialogue/_hero.scss",
+            "size": 7506,
+            "hash": "86245e748cb40f82721d9e6de2ec706716e247b32d37f63149cf44068c146212"
+        },
+        {
+            "type": "file",
+            "name": "styles/dialogue/_about.scss",
+            "size": 19587,
+            "hash": "6ce1de6e3c68ad75298980adb53a6d3676a68eda6101c7d4cd791e74c84850a3"
+        },
+        {
+            "type": "file",
+            "name": "styles/hackathon/_footer.scss",
+            "size": 3158,
+            "hash": "e0ea1c4895f67e342ac2029d5e30a197bb0df057e88add6950ed84b6e36bb3d6"
+        },
+        {
+            "type": "file",
+            "name": "styles/hackathon/_about.scss",
+            "size": 42243,
+            "hash": "7c49f828af0c25318f8e76d4a3ba141b74a2f8fdf5b9587ed824dd0dc06630a5"
+        },
+        {
+            "type": "file",
+            "name": "styles/hackathon/_header.scss",
+            "size": 3686,
+            "hash": "7845f3ac68318abdf29d16894084e2b36b7ddd1009e18d4da10a1c01b51bbb60"
+        },
+        {
+            "type": "file",
+            "name": "styles/hackathon/_hero.scss",
+            "size": 4802,
+            "hash": "33d6032ca9325f0b04f467c9f46b5ee0be002dc1629555f69d4583fdf0e2e61c"
+        },
+        {
+            "type": "file",
+            "name": "styles/partials/_about.scss",
+            "size": 2197,
+            "hash": "b84d6a10477e277d884942669c54bc805c850a970a893130dcb678804dfdc102"
+        },
+        {
+            "type": "file",
+            "name": "styles/partials/_background.scss",
+            "size": 2970,
+            "hash": "910f45130b1a74d317cf5999a72067b9c4219d4fd50ca6868665ad88b83d28cb"
+        },
+        {
+            "type": "file",
+            "name": "styles/partials/_conference.scss",
+            "size": 8277,
+            "hash": "f2116d81244cc376be576e94e8dd4e202bdbfb481d2372d47d76f824d8969f3d"
+        },
+        {
+            "type": "file",
+            "name": "styles/partials/_contact.scss",
+            "size": 6347,
+            "hash": "84c7f77ba23098a7261a7dd85b55243f69dec6efe386899e99841f8e029983eb"
+        },
+        {
+            "type": "file",
+            "name": "styles/partials/_expectations.scss",
+            "size": 3388,
+            "hash": "05f94453f73a78abf9ea50effd918b58efee830ed0b094394f336e86df7c1ffc"
+        },
+        {
+            "type": "file",
+            "name": "styles/partials/_executive-summary.scss",
+            "size": 2846,
+            "hash": "b175e419d5aff53430fdcb1a83383b1a56c72acbccd9126f69198a509b3c65df"
+        },
+        {
+            "type": "file",
+            "name": "styles/partials/_footer.scss",
+            "size": 4406,
+            "hash": "bd893a3f1e0f3363b72fc509d8d70b3070152386b18e895d491ca390c459118f"
+        },
+        {
+            "type": "file",
+            "name": "styles/partials/_gallery-grid.scss",
+            "size": 1088,
+            "hash": "db9dcc6772ba4d402aa7de4ddbb3a17474099aac456c03a98d536832f39773d4"
+        },
+        {
+            "type": "file",
+            "name": "styles/partials/_global.scss",
+            "size": 2077,
+            "hash": "b672e7dc23d23d7b4e72303aad5cffe6657d10cb31ccc48ea80e68a9967bab55"
+        },
+        {
+            "type": "file",
+            "name": "styles/partials/_header.scss",
+            "size": 6482,
+            "hash": "0a198187ece139d760de75a6431cec032327fecd823a3077e960255aef4f7ba8"
+        },
+        {
+            "type": "file",
+            "name": "styles/partials/_hero-variant.scss",
+            "size": 6742,
+            "hash": "8f22bd35f5b9ff3d0f230fd8c83680fbdb84d9ece7df37151b416f1312f380ff"
+        },
+        {
+            "type": "file",
+            "name": "styles/partials/_hero.scss",
+            "size": 62409,
+            "hash": "b542e3094f26e1dcb78ab62213e1848364908b82086f3eceb9673c7d237ff40e"
+        },
+        {
+            "type": "file",
+            "name": "styles/partials/_objectives.scss",
+            "size": 4218,
+            "hash": "cc2efea4daa1b432d0aacccfaffaf4658190c9d8e7cbc119db2d1c5cb1fb1a19"
+        },
+        {
+            "type": "file",
+            "name": "styles/partials/_partners.scss",
+            "size": 589,
+            "hash": "92380525c590988b5c29d3bad61d1add79824c6590972d93f78ddeab238e24dc"
+        },
+        {
+            "type": "file",
+            "name": "styles/partials/_partnerships.scss",
+            "size": 2833,
+            "hash": "83d6087292c7e4baee2d0e4fe98d41306097e55e1dda24a83be9401db1b7ddd9"
+        },
+        {
+            "type": "file",
+            "name": "styles/partials/_pillars.scss",
+            "size": 1452,
+            "hash": "2f37edaf5c1843616301883823e72ebdeb08b02c06160df6e540a4647d48b854"
+        },
+        {
+            "type": "file",
+            "name": "styles/partials/_post-hero.scss",
+            "size": 1258,
+            "hash": "b67270e58fe2010ad00a49a79ce7fc2e2a3907b6359a94b297e2be251c7ae7e4"
+        },
+        {
+            "type": "file",
+            "name": "styles/partials/_register_popup.scss",
+            "size": 16298,
+            "hash": "517281a8dbdee280b78546253c9202adce20128d99928d13ad13a346d615fc9f"
+        },
+        {
+            "type": "file",
+            "name": "styles/partials/_speakers.scss",
+            "size": 2220,
+            "hash": "8063e264dbad3e9a838c0cdee37195005fe2eb1f8565bdd94e1b8ddf1ffdd088"
+        },
+        {
+            "type": "file",
+            "name": "styles/partials/_sponsorship.scss",
+            "size": 8741,
+            "hash": "f7ea65f9f13defba2c05fdb773ac00692b4e1d8ab3c63d65983421f8354cac78"
+        },
+        {
+            "type": "file",
+            "name": "styles/partials/_structure-n-approach.scss",
+            "size": 1433,
+            "hash": "23a37bfabfff7d8daeddb20a9bd9e7eed6247f2ab3dc6ef86a160eb463d78f80"
+        },
+        {
+            "type": "file",
+            "name": "styles/partials/_summit_partners.scss",
+            "size": 1556,
+            "hash": "2a6119155923119b1b707905666bda9e6405be4121a9f71ef21606eb0287e7b5"
+        },
+        {
+            "type": "file",
+            "name": "styles/partials/_themes.scss",
+            "size": 3494,
+            "hash": "a9071b5e5b2e327bc079c64b37a8879686039fea4927015181ce4dd6a7188d10"
+        },
+        {
+            "type": "file",
+            "name": "styles/resources/_content.scss",
+            "size": 6163,
+            "hash": "1b370fe0bdf17682fffc0f64ec9e83631dc3dff3b88dafee21b7cbd66ff83e6c"
+        },
+        {
+            "type": "file",
+            "name": "styles/resources/_nav.scss",
+            "size": 1281,
+            "hash": "f3c0f8775375148f2135316a38697fd6431b49192b63181b81044c619c573b2f"
+        },
+        {
+            "type": "file",
+            "name": "styles/resources/_rhero.scss",
+            "size": 2360,
+            "hash": "8cbd3f31650ba172720a6c949700a484cf131c2bbd2bdcaa26e66c421fb20bb8"
+        },
+        {
+            "type": "folder",
+            "name": ".git/logs/refs/heads"
+        },
+        {
+            "type": "folder",
+            "name": ".git/logs/refs/remotes"
+        },
+        {
+            "type": "file",
+            "name": ".git/objects/pack/pack-ff338d883b1529c9379dc56c9236082a5f1f3762.idx",
+            "size": 6000,
+            "hash": "9d35e76128c37e30d69ed105bee424a726173234496d37d0ade09f6860eb3856"
+        },
+        {
+            "type": "file",
+            "name": ".git/objects/pack/pack-ff338d883b1529c9379dc56c9236082a5f1f3762.pack",
+            "size": 30342218,
+            "hash": "ff5655458353dbd4f3789f81ac42ab0390ca76986819bc7c39bc06b24221cb92"
+        },
+        {
+            "type": "file",
+            "name": ".git/objects/pack/pack-ff338d883b1529c9379dc56c9236082a5f1f3762.rev",
+            "size": 756,
+            "hash": "3b87cd806e73c5c6e57bb2df756f57ef10eca62761882ba86073c9481db903dd"
+        },
+        {
+            "type": "file",
+            "name": ".git/refs/heads/main",
+            "size": 41,
+            "hash": "16363cf16406a27c35b8253d9e0377c205528547271c063a7120bdc22fecf911"
+        },
+        {
+            "type": "folder",
+            "name": ".git/refs/remotes/origin"
+        },
+        {
+            "type": "file",
+            "name": "images/logos/sponsors/EARGHSS PARTNER LOGOS-22.svg",
+            "size": 11727,
+            "hash": "2f50e7ba720960823ee02143e167f1f0d49c616bc3a764a66ac913021fc46770"
+        },
+        {
+            "type": "file",
+            "name": "images/logos/sponsors/EARGHSS PARTNER LOGOS_BIOVAX.png",
+            "size": 60473,
+            "hash": "0dbb8ce3d73c53cc2645cddbfd86ab5bc75b37a68d1524fdd1c20cdfb0a008ef"
+        },
+        {
+            "type": "file",
+            "name": "images/logos/sponsors/EARGHSS PARTNER LOGOS_BIOVAX.svg",
+            "size": 579789,
+            "hash": "29824d7dc9e6478fe45aa4885cb60fbe7de749db604495263c77f2054e1ba0a1"
+        },
+        {
+            "type": "file",
+            "name": "images/logos/sponsors/EARGHSS PARTNER LOGOS_KENYA HEALTHCARE FEDERATION.png",
+            "size": 18891,
+            "hash": "23ef1361f128a510d32d9a35e767333ddd20f5b60951f088eeabe454236e0408"
+        },
+        {
+            "type": "file",
+            "name": "images/logos/sponsors/EARGHSS PARTNER LOGOS_KENYA HEALTHCARE FEDERATION.svg",
+            "size": 12828,
+            "hash": "e44ee62aeee943502193f32a9572aafa5b1ed3243bba088b7ef4b24147c5f4c6"
+        },
+        {
+            "type": "file",
+            "name": "images/logos/sponsors/EARGHSS PARTNER LOGOS_eamv.svg",
+            "size": 9847,
+            "hash": "b3f16fe492761062bfdc08b4aa35708f83836faf29933f8b0949ff03a594b177"
+        },
+        {
+            "type": "file",
+            "name": "images/logos/sponsors/EARGHSS PARTNER LOGOS_safaricom.svg",
+            "size": 4819,
+            "hash": "23dba6001223b9c0a48b5fded6dfbbe33d710d8ceb9fba8a85969aca0860069f"
+        },
+        {
+            "type": "file",
+            "name": "images/logos/sponsors/EARGHSS PARTNER LOGOS_terumo_bct.svg",
+            "size": 7828,
+            "hash": "927645fd4148f3a954c40e48623bcf7bbbb6e75cbffcf5648704254572d211ca"
+        },
+        {
+            "type": "file",
+            "name": "images/logos/sponsors/dalberg.svg",
+            "size": 1831,
+            "hash": "0b5777c4d3babc19b05747fcd0c5bbf26cedf65ecdef7fb9893e6dad37035ff0"
+        },
+        {
+            "type": "file",
+            "name": "images/logos/sponsors/miti.svg",
+            "size": 559777,
+            "hash": "dc36e0b5782063e831336fe1aeb09b3ecd67d56198f41127fcf5db373e6eeaaa"
+        },
+        {
+            "type": "file",
+            "name": "images/logos/sponsors/sponsor logos_AFRICA CDC.png",
+            "size": 278303,
+            "hash": "0510f3df73ad76bd13f23dde6ba11e0bcfa0ef64c205f5845f80288d3ed95baa"
+        },
+        {
+            "type": "file",
+            "name": "images/logos/sponsors/sponsor logos_AFRICA HEALTH BUSINESS.png",
+            "size": 156774,
+            "hash": "6704178bbb7d72b183f1f106d938a94f850b5c6ed91833ab77ea3498f33056c8"
+        },
+        {
+            "type": "file",
+            "name": "images/logos/sponsors/sponsor logos_AMREF HEALTH AFRICA.png",
+            "size": 61002,
+            "hash": "dcea891970f49a1466744fec950f772ee24b265d1af2b1df8fecb90a2a9da921"
+        },
+        {
+            "type": "file",
+            "name": "images/logos/sponsors/sponsor logos_AMREF INT. UNIVERSITY.png",
+            "size": 504685,
+            "hash": "1771c49d3f64810d946296f1a68a74e8de25d6aadf9c2b76a80a2266ac114da8"
+        },
+        {
+            "type": "file",
+            "name": "images/logos/sponsors/sponsor logos_EARGHSS ALTERNATE.png",
+            "size": 141091,
+            "hash": "1a044d782c15e212d620e8f84abc71a32d2ed00bd1a5199d1c39104cbb9647a3"
+        },
+        {
+            "type": "file",
+            "name": "images/logos/sponsors/sponsor logos_EARGHSS.png",
+            "size": 150675,
+            "hash": "e1ceb06f173cbf5f11091b38121ac5acea010ed1272efa9e18bb6cfed3f46f9b"
+        },
+        {
+            "type": "file",
+            "name": "images/logos/sponsors/sponsor logos_J.K.P.png",
+            "size": 382984,
+            "hash": "4db4af06d5e0b3bd424234a0806b70163fb609c6090066275dbeda527cba3df4"
+        },
+        {
+            "type": "file",
+            "name": "images/logos/sponsors/sponsor logos_K.M.R.I.png",
+            "size": 237239,
+            "hash": "2a29cc51f9dbb588030517a4f282f955f3d527da0191c6be31dbe39696613211"
+        },
+        {
+            "type": "file",
+            "name": "images/logos/sponsors/sponsor logos_KENYA VISION 2030.png",
+            "size": 520212,
+            "hash": "09d9071621e95acf56190f39f7a7124495f83cfb7d0275e0d4637b22c9bdebb5"
+        },
+        {
+            "type": "file",
+            "name": "images/logos/sponsors/sponsor logos_MINISTRY OF HEALTH.png",
+            "size": 276563,
+            "hash": "b9065c5fb99a940ad5c05d48879756fde461394aec1086190a8e68d8c88e0743"
+        },
+        {
+            "type": "file",
+            "name": "images/logos/sponsors/sponsor logos_NPHI.png",
+            "size": 459729,
+            "hash": "e568455079ced5ce74b5d147efef447e7687d43d2b142d7f08c131a55263827f"
+        },
+        {
+            "type": "file",
+            "name": "images/logos/sponsors/sponsor logos_PRIDE INN PARADISE.png",
+            "size": 181724,
+            "hash": "c320c1aae2f018a2a7dea30815be53f9bc2f38d27dd7488c698f455cec0f39f7"
+        },
+        {
+            "type": "file",
+            "name": "images/logos/sponsors/sponsor logos_ROBERT KOCH INSTITUTE.png",
+            "size": 393419,
+            "hash": "b7abbdf8f1795acd075c8a5172f376f60505e0af86bf67aabd5cea95595a6338"
+        },
+        {
+            "type": "file",
+            "name": "images/logos/sponsors/sponsor logos_UNMC.png",
+            "size": 100285,
+            "hash": "714ddef6058435f150cabf7a9750fd9e1d171b87416ae3003a413be3b6d7bec7"
+        },
+        {
+            "type": "file",
+            "name": "images/logos/sponsors/sponsor logos_WHO.png",
+            "size": 193818,
+            "hash": "c541a77ca6ccffbbfb7116767dc3742933e36df0c6ebbda964bb2de237d6b5e7"
+        },
+        {
+            "type": "file",
+            "name": ".git/logs/refs/heads/main",
+            "size": 227,
+            "hash": "bb407ed6ce6cf5bcfb19081a461de75d3add92f6cbf38ebb6709f698d5d2bd81"
+        },
+        {
+            "type": "folder",
+            "name": ".git/logs/refs/remotes/origin"
+        },
+        {
+            "type": "file",
+            "name": ".git/refs/remotes/origin/main",
+            "size": 41,
+            "hash": "16363cf16406a27c35b8253d9e0377c205528547271c063a7120bdc22fecf911"
+        },
+        {
+            "type": "file",
+            "name": ".git/logs/refs/remotes/origin/main",
+            "size": 326,
+            "hash": "8e71290d57531e6f031664cc6e1905a8f2f4c167dc5aea95dfa7dfc92b080ed3"
+        }
+    ]
+}

@@ -1,0 +1,146 @@
+#partnerships {
+  width: 100%;
+
+  .content {
+    padding: 5vw;
+    font-family: $raleway;
+    .main_title {
+      color: $secondary;
+      font-size: 2.5vw;
+      @include tablet-pro {
+        font-size: 3vw;
+      }
+      @include tablet {
+        font-size: 3.5vw;
+        line-height: 5vw;
+      }
+      @include mobile {
+        font-size: 5vw;
+        line-height: 6.5vw;
+      }
+      sup {
+        font-size: 1.5vw;
+        font-weight: 700;
+      }
+    }
+    p {
+      font-size: 1.2vw;
+      margin: 1vw 0;
+      line-height: 1.8vw;
+      @include laptop {
+        margin: 1.5vw 0;
+        font-size: 1.5vw;
+        line-height: 2.5vw;
+      }
+      @include tablet-pro {
+        margin: 2vw 0;
+        font-size: 1.8vw;
+        line-height: 3vw;
+      }
+      @include tablet {
+        margin: 4vw 0;
+        font-size: 2.5vw;
+        line-height: 4vw;
+      }
+      @include mobile {
+        margin: 3vw 0;
+        font-size: 3.5vw;
+        line-height: 5.5vw;
+      }
+      strong {
+        color: $blue;
+      }
+      span {
+        font-size: inherit;
+        font-weight: 700;
+      }
+    }
+    .main-partners {
+      width: 100%;
+      margin: 5vw 0 0 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      @include mobile {
+        padding: 0 10vw;
+        gap: 5vw;
+      }
+      hr {
+        width: 0.2vw;
+        height: 5vw;
+        background-color: $blue;
+        outline: 0;
+        border: none;
+        background-color: 1vw;
+        @include mobile {
+          height: 15vw;
+          width: 0.5vw;
+        }
+      }
+      a {
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @include mobile {
+          width: 40%;
+        }
+
+        img {
+          max-width: 70%;
+          height: auto;
+          @include mobile {
+            max-width: 100%;
+            width: 100%;
+          }
+        }
+      }
+    }
+    .partners {
+      width: 100%;
+      margin: 2vw 0 5vw 0;
+      padding: 0 15vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      @include mobile {
+        padding: 0 10vw;
+        gap: 5vw;
+      }
+      a {
+        width: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @include mobile {
+          width: 45%;
+        }
+        &.miti {
+          width: 18%;
+        }
+        &.amref {
+          width: 15%;
+        }
+        &.jumuiya {
+          width: 18%;
+        }
+        &.dalberg {
+          width: 18%;
+        }
+        &.biovax {
+          width: 18%;
+        }
+        img {
+          max-width: 70%;
+          height: auto;
+          @include mobile {
+            max-width: 100%;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

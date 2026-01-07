@@ -1,0 +1,388 @@
+.conference {
+  width: 100%;
+
+  .objectives {
+    background-color: #f0ebeb7e;
+    margin: 5vw 0;
+    padding: 3vw 5vw;
+
+    .objectives_title {
+      color: $primary;
+      font-size: 1.8vw;
+      line-height: 2.2vw;
+      margin-bottom: 1vw;
+      @include tablet-pro {
+        font-size: 2vw;
+        line-height: 3vw;
+      }
+      @include tablet {
+        font-size: 2.5vw;
+        line-height: 3.5vw;
+      }
+      @include mobile {
+        font-size: 4.5vw;
+        line-height: 6.5vw;
+        margin-bottom: 2vw;
+      }
+    }
+
+    hr {
+      width: 5vw;
+      outline: none;
+      height: 0.4vw;
+      border: none;
+      background-color: $secondary;
+      margin-bottom: 1vw;
+      @include tablet-pro {
+        margin-bottom: 2vw;
+      }
+      @include tablet {
+        margin-bottom: 3vw;
+        width: 10vw;
+        height: 0.6vw;
+      }
+      @include mobile {
+        margin-bottom: 5vw;
+        width: 20vw;
+        height: 01vw;
+      }
+    }
+
+    .icons {
+      width: 100%;
+      ul {
+        width: 100%;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        li {
+          width: 25%;
+          margin: 1.5vw;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          @include mobile {
+            width: 100%;
+            margin: 7vw 0;
+            padding: 0 10vw;
+          }
+
+          .icon {
+            width: 5vw;
+            height: 5vw;
+            background-color: $secondary;
+            border-radius: 50%;
+            display: grid;
+            place-items: center;
+            padding: 0.5vw;
+            margin-bottom: 1vw;
+            @include mobile {
+              width: 15vw;
+              height: 15vw;
+              margin-bottom: 5vw;
+            }
+            svg {
+              width: 2.8vw;
+              color: $primary;
+              @include mobile {
+                width: 7vw;
+              }
+            }
+          }
+          .text {
+            p {
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .areas {
+    width: 100%;
+
+    .content {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      @include mobile {
+        flex-direction: column;
+      }
+      .left {
+        width: 50%;
+        background-image: linear-gradient(#f9cb01ec, #f9cb01ec),
+          url("../../images/others/kid.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 3vw 5vw;
+        @include mobile {
+          width: 100%;
+          padding: 5vw;
+        }
+        .left_title {
+          font-size: 1.8vw;
+          font-weight: 700;
+          color: $primary;
+          @include tablet-pro {
+            font-size: 2vw;
+          }
+
+          @include tablet {
+            font-size: 2.5vw;
+          }
+
+          @include mobile {
+            font-size: 5vw;
+          }
+        }
+        hr {
+          width: 5vw;
+          outline: none;
+          height: 0.4vw;
+          border: none;
+          background-color: $white;
+          margin: 1vw 0 2vw 0;
+          @include mobile {
+            width: 20vw;
+            height: 1vw;
+            margin-bottom: 4vw;
+          }
+        }
+
+        .left_subtitle {
+          color: $black;
+          font-size: 1.3vw;
+          margin-bottom: 2vw;
+          @include tablet-pro {
+            font-size: 1.7vw;
+          }
+
+          @include tablet {
+            font-size: 2vw;
+          }
+
+          @include mobile {
+            font-size: 3.5vw;
+          }
+        }
+
+        ol {
+          width: 100%;
+          li {
+            margin: 1vw 0;
+            font-size: 1.2vw;
+            margin-left: 1vw;
+            @include tablet-pro {
+              font-size: 1.5vw;
+            }
+
+            @include tablet {
+              font-size: 1.8vw;
+            }
+
+            @include mobile {
+              font-size: 3vw;
+              margin-left: 3vw;
+            }
+          }
+        }
+      }
+      .right {
+        width: 50%;
+        background-image: linear-gradient(#8e1711ee, #8e1711ee),
+          url("../../images/others/wadi_lissa.jpg");
+        padding: 3vw 5vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        @include mobile {
+          width: 100%;
+          padding: 5vw;
+        }
+        .right_title {
+          font-size: 1.8vw;
+          font-weight: 700;
+          color: $white;
+          @include tablet-pro {
+            font-size: 2vw;
+          }
+
+          @include tablet {
+            font-size: 2.5vw;
+          }
+
+          @include mobile {
+            font-size: 5vw;
+          }
+        }
+        hr {
+          width: 5vw;
+          outline: none;
+          height: 0.4vw;
+          border: none;
+          background-color: $white;
+          margin: 1vw 0 2vw 0;
+          @include mobile {
+            width: 20vw;
+            height: 1vw;
+            margin-bottom: 4vw;
+          }
+        }
+
+        .right_subtitle {
+          color: $black;
+          font-size: 1.3vw;
+          color: $white;
+          @include tablet-pro {
+            font-size: 1.7vw;
+          }
+
+          @include tablet {
+            font-size: 2vw;
+          }
+
+          @include mobile {
+            font-size: 3.5vw;
+          }
+        }
+
+        ol {
+          width: 100%;
+          color: $white;
+          li {
+            margin: 1vw 0;
+            font-size: 1.2vw;
+            margin-left: 1vw;
+            @include tablet-pro {
+              font-size: 1.5vw;
+            }
+
+            @include tablet {
+              font-size: 1.8vw;
+            }
+
+            @include mobile {
+              font-size: 3vw;
+              margin-left: 3vw;
+            }
+            ul {
+              display: flex;
+              align-items: flex-end;
+              justify-content: space-between;
+              list-style-type: square;
+              flex-wrap: wrap;
+              margin-left: 1vw;
+              li {
+                width: 45%;
+                margin: 0.5vw 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .participants {
+    width: 100%;
+    margin: 5vw 0;
+
+    .content {
+      background-image: linear-gradient(#8e1711d0, #8e1711d0),
+        url("../../images/others/sign_language.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 5vw;
+      width: 100%;
+
+      .participants_title {
+        font-size: 1.8vw;
+        font-weight: 700;
+        color: $white;
+        @include tablet-pro {
+          font-size: 2vw;
+        }
+
+        @include tablet {
+          font-size: 2.5vw;
+        }
+
+        @include mobile {
+          font-size: 5vw;
+        }
+      }
+      hr {
+        width: 5vw;
+        outline: none;
+        height: 0.4vw;
+        border: none;
+        background-color: $white;
+        margin: 1vw 0 2vw 0;
+        @include mobile {
+          width: 20vw;
+          height: 1vw;
+          margin-bottom: 4vw;
+        }
+      }
+      p {
+        color: $white;
+        font-size: 1.1vw;
+        margin-bottom: 1vw;
+        line-height: 2vw;
+        @include tablet-pro {
+          font-size: 1.5vw;
+          line-height: 2.5vw;
+        }
+
+        @include tablet {
+          font-size: 1.8vw;
+          line-height: 3vw;
+        }
+
+        @include mobile {
+          font-size: 3vw;
+          line-height: 5.5vw;
+          margin-bottom: 5vw;
+        }
+      }
+      ul {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+        margin-left: 2vw;
+        flex-wrap: wrap;
+        list-style-type: square;
+        li {
+          color: $white;
+          font-size: 1.1vw;
+          width: 50%;
+          margin: 0.3vw 0;
+          @include tablet-pro {
+            width: 100%;
+            font-size: 1.5vw;
+            line-height: 2.5vw;
+          }
+
+          @include tablet {
+            width: 100%;
+            font-size: 1.8vw;
+            line-height: 3vw;
+          }
+
+          @include mobile {
+            width: 100%;
+            font-size: 3vw;
+            line-height: 5.5vw;
+            margin-left: 3vw;
+          }
+        }
+      }
+    }
+  }
+}

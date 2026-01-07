@@ -1,0 +1,114 @@
+/* - - - - - - fonts - - - - - - */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* - - - - - - colors - - - - - - */
+$primary: #165b36;
+$golden: #a87d54;
+$mustard: #fba50a;
+$pink_red: #e21e41;
+$bright_gold: #fdcc38;
+$primary_fade: #a81d16d5;
+$secondary: #061c38;
+$secondary_fade: #01101a;
+$grey: #9d9d9c;
+$text_color: #2e2e2e;
+$blue: #1c7bae;
+$faded_blue: #afd0e2;
+$white: #fff;
+$black: #0c0c0c;
+$title_color: #013f4c;
+
+/* - - - - - - fonts  - - - - - - */
+$lora: "Lora", serif;
+$raleway: "Raleway", sans-serif;
+$montserrat: "Montserrat", sans-serif;
+$poppins: "Poppins", sans-serif;
+$bebas: "Bebas Neue", cursive;
+
+/* - - - - - - mixins - - - - - - */
+@mixin mobile {
+  @media (max-width: 500px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: 501px) and (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin tablet-pro {
+  @media (min-width: 769px) and (max-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin laptop {
+  @media (min-width: 1025px) and (max-width: 1440px) {
+    @content;
+  }
+}
+@mixin ultrawide {
+  @media (min-width: 1921px) {
+    @content;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  // &::-webkit-scrollbar {
+  //   cursor: pointer;
+  //   width: 2vw;
+  // }
+}
+
+p,
+span,
+a,
+li {
+  font-size: 0.9vw;
+  font-weight: 400;
+
+  @include tablet-pro {
+    font-size: 1.3vw;
+  }
+
+  @include tablet {
+    font-size: 1.5vw;
+  }
+
+  @include mobile {
+    font-size: 3vw;
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(0, -0.5vw);
+  }
+  50% {
+    transform: translate(0, 0);
+  }
+  75% {
+    transform: translate(0, 0.5vw);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

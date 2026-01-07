@@ -1,0 +1,74 @@
+#content-n-approach {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  font-family: $raleway;
+  margin: 5vw 0;
+  padding: 0 5vw;
+  @include tablet-pro {
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 5vw 0;
+  }
+  @include tablet {
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 5vw 0;
+  }
+  @include mobile {
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 5vw 0 10vw 0;
+  }
+
+  .left,
+  .right {
+    width: 40%;
+    background-size: contain;
+    overflow: hidden;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: grid;
+    place-items: center;
+    @include tablet-pro {
+      width: 100%;
+    }
+    @include tablet {
+      width: 100%;
+    }
+    @include mobile {
+      width: 100%;
+      margin-bottom: 2.5vw;
+      margin-top: 5vw;
+    }
+    img {
+      width: 100%;
+      @include mobile {
+        width: 100%;
+      }
+    }
+  }
+  .left {
+    width: 55%;
+    @include tablet-pro {
+      width: 100%;
+    }
+    @include tablet {
+      width: 100%;
+      margin-top: 20vw;
+    }
+    @include mobile {
+      width: 100%;
+      margin-bottom: 2.5vw;
+      margin-top: 20vw;
+    }
+  }
+}

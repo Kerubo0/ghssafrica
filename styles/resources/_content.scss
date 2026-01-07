@@ -1,0 +1,243 @@
+.content {
+  padding: 5vw;
+
+  .tab {
+    display: none;
+    &.active {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      justify-content: space-between;
+      .item {
+        width: 48%;
+        margin-bottom: 2vw;
+        @include tablet {
+          width: 100%;
+          margin-bottom: 4vw;
+        }
+        @include mobile {
+          width: 100%;
+          margin-bottom: 10vw;
+        }
+        .title {
+          margin-bottom: 0.5vw;
+          width: 100%;
+          h3 {
+            font-family: "Lora", serif;
+            color: #c2b59d;
+            font-size: 1.7vw;
+            @include tablet {
+              font-size: 2.7vw;
+            }
+            @include mobile {
+              font-size: 5.5vw;
+            }
+          }
+        }
+        .excerpt {
+          margin-bottom: 0.7vw;
+          width: 100%;
+          @include tablet {
+            margin-bottom: 1vw;
+          }
+          @include mobile {
+            margin-bottom: 1.5vw;
+          }
+          p {
+            font-size: 1vw;
+            font-family: "Lora", serif;
+            font-weight: 600;
+            color: $secondary;
+            @include tablet {
+              font-size: 2.2vw;
+            }
+            @include mobile {
+              font-size: 4.2vw;
+            }
+          }
+        }
+
+        .link {
+          margin-bottom: 1.7vw;
+          @include tablet {
+            margin-bottom: 2vw;
+          }
+          @include mobile {
+            margin-bottom: 2vw;
+          }
+          width: 100%;
+          a {
+            width: 100%;
+            text-decoration: none;
+            color: #58595b;
+            font-family: "Montserrat", serif;
+            letter-spacing: 0.1vw;
+            font-weight: 600;
+            word-break: break-word;
+            @include tablet {
+              font-size: 2vw;
+            }
+            @include mobile {
+              font-size: 3.7vw;
+            }
+          }
+        }
+
+        .button {
+          cursor: pointer;
+          a {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            text-decoration: none;
+            span {
+              width: 8vw;
+              display: inline-flex;
+              text-transform: uppercase;
+              font-size: 1vw;
+              font-family: "Montserrat", "sans-serif";
+              font-weight: 600;
+              color: #c2b59d;
+              @include tablet {
+                font-size: 2vw;
+                width: 17vw;
+              }
+              @include mobile {
+                width: 35vw;
+                font-size: 4vw;
+              }
+            }
+            svg {
+              border-radius: 50%;
+              border: 0.2vw solid #f49334;
+              padding: 0.5vw;
+              display: grid;
+              place-items: center;
+              width: 2.5vw;
+              color: $white;
+              background-color: $secondary;
+              @include tablet {
+                width: 3.5vw;
+              }
+              @include mobile {
+                width: 5.5vw;
+              }
+            }
+          }
+        }
+      }
+    }
+    &.gallery {
+      &.active {
+        display: flex;
+        justify-content: flex-start;
+      }
+      .item {
+        width: 30%;
+        margin: 0 1.65% 2vw 1.65%;
+        @include tablet {
+          width: 46.5%;
+          margin: 0 1.65% 2vw 1.65%;
+        }
+        @include mobile {
+          width: 100%;
+          margin: 0 0 10vw 0;
+        }
+        .thumbnail {
+          width: 100%;
+          background: linear-gradient(to bottom, #ffffff8a, #fff),
+            url("../../images/stretcher_patient.jpg");
+          background-position: center top;
+          background-size: cover;
+
+          height: 20vh;
+          display: flex;
+          align-items: flex-end;
+          position: relative;
+          overflow: hidden;
+          @include tablet {
+            height: 30vh;
+          }
+          @include mobile {
+            height: 30vh;
+          }
+          .angledb {
+            position: absolute;
+            background-color: #c2b59d;
+            width: 70%;
+            height: 70%;
+            right: -7vw;
+            transform: rotate(-60deg);
+            @include mobile {
+              top: -3vw;
+              right: -30vw;
+            }
+          }
+          .banner {
+            height: 40%;
+            width: 100%;
+            padding: 1vw;
+            background-color: $secondary;
+            position: relative;
+            z-index: 1;
+            @include tablet {
+              padding: 3vw;
+            }
+            @include mobile {
+              padding: 5vw;
+            }
+            p {
+              color: $primary;
+              text-transform: uppercase;
+              font-family: "Montserrat", sans-serif;
+              font-weight: 500;
+              @include tablet {
+                font-size: 2vw;
+              }
+              @include mobile {
+                font-size: 4vw;
+              }
+            }
+            h3 {
+              text-transform: uppercase;
+              font-family: "Montserrat", sans-serif;
+              letter-spacing: 0.2vw;
+              color: #c2b59d;
+              font-size: 1.5vw;
+              font-weight: 900;
+              -webkit-text-fill-color: transparent;
+              -webkit-text-stroke-color: currentColor;
+              -webkit-text-stroke-width: 0.05vw;
+              @include tablet {
+                font-size: 2.5vw;
+                -webkit-text-stroke-width: 0.1vw;
+              }
+              @include mobile {
+                font-size: 6.5vw;
+                -webkit-text-stroke-width: 0.2vw;
+              }
+            }
+          }
+        }
+        .title {
+          margin: 0.5vw 0;
+          width: 100%;
+          @include mobile {
+            margin: 1.5vw 0;
+          }
+          h3 {
+            font-family: "Lora", serif;
+            color: #c2b59d;
+            font-size: 1.4vw;
+            @include tablet {
+              font-size: 2.5vw;
+            }
+            @include mobile {
+              font-size: 4.5vw;
+            }
+          }
+        }
+      }
+    }
+  }
+}

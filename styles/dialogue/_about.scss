@@ -1,0 +1,868 @@
+.about {
+  width: 100%;
+  #theme_objective {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: 5vw 0;
+    padding: 0 5vw;
+    @include tablet-pro {
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      margin: 5vw 0;
+    }
+    @include tablet {
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      margin: 5vw 0;
+    }
+    @include mobile {
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      margin: 5vw 0 10vw 0;
+    }
+
+    .image {
+      width: 48%;
+      background-size: cover;
+      overflow: hidden;
+      background-image: url("../../images/packages.jpg");
+      background-position: center;
+      display: grid;
+      place-items: center;
+    }
+    .content {
+      width: 50%;
+      background-repeat: no-repeat;
+      background-position: center;
+      font-family: "Lora", serif;
+      text-align: left;
+      padding: 3vw 2vw;
+      @include tablet-pro {
+        width: 100%;
+        padding: 3vw 3vw 3vw 3.5vw;
+      }
+      @include tablet {
+        width: 100%;
+        padding: 3vw 7vw 3vw 3.5vw;
+      }
+      @include mobile {
+        width: 100%;
+        padding: 0;
+      }
+
+      .cluster {
+        margin: 3vw 0;
+        .main_title {
+          color: $primary;
+          font-family: "Lora", sans-serif;
+          font-size: 1.5vw;
+          @include tablet-pro {
+            font-size: 3vw;
+            line-height: 4vw;
+          }
+          @include tablet {
+            font-size: 3.5vw;
+            line-height: 4.5vw;
+          }
+          @include mobile {
+            font-size: 4.5vw;
+            line-height: 6.5vw;
+            margin-bottom: 2vw;
+          }
+        }
+        p {
+          text-align: left;
+          margin-bottom: 0.7vw;
+          font-size: 1.2vw;
+          letter-spacing: 0.1vw;
+          margin: 1vw 0;
+          font-family: "lora", sans-serif;
+          color: $grey;
+          font-weight: 700;
+          @include laptop {
+            font-size: 1.2vw;
+          }
+          @include tablet-pro {
+            font-size: 1.8vw;
+          }
+          @include tablet {
+            font-size: 2.3vw;
+            margin-bottom: 2vw;
+          }
+          @include mobile {
+            font-size: 3.5vw;
+            margin-bottom: 2vw;
+          }
+        }
+      }
+
+      hr {
+        outline: none;
+        border: none;
+        width: 100%;
+        height: 0.2vw;
+        background-color: #b9a38eb0;
+      }
+    }
+  }
+
+  #africa {
+    display: flex;
+    // align-items: flex-start;
+    justify-content: space-between;
+    margin: 2vw 0;
+    @include mobile {
+      flex-wrap: wrap;
+    }
+    .left {
+      width: 65%;
+      background-image: url("../../images/africa.jpeg");
+      // align-items: auto;
+      background-size: 50% 100%;
+      background-position: right;
+      background-repeat: no-repeat;
+      display: flex;
+      align-items: center;
+      @include tablet-pro {
+        width: 50%;
+        background-size: 80% 100%;
+      }
+      @include tablet {
+        width: 50%;
+        background-size: 100% 100%;
+      }
+      @include mobile {
+        width: 100%;
+        height: 70vw;
+        background-size: 70% 100%;
+      }
+
+      .center {
+        width: 100%;
+        display: flex;
+        // padding: 3vw;
+        padding: 2vw 0;
+        .text {
+          width: 50%;
+          padding: 4vw 2vw;
+          background-color: $primary;
+          @include tablet-pro {
+            padding: 8vw 2vw;
+            width: 100%;
+            background-color: #104da8c4;
+          }
+          @include tablet {
+            padding: 8vw 2vw;
+            width: 100%;
+            background-color: #104da8c4;
+          }
+          @include mobile {
+            width: 70%;
+            padding: 10vw 5vw;
+          }
+          h3 {
+            color: $white;
+            font-family: "Lora", sans-serif;
+            font-size: 1.4vw;
+            text-align: right;
+            padding-right: 1vw;
+            border-right: solid 0.2vw $white;
+            line-height: 2vw;
+            @include tablet-pro {
+              font-size: 2.5vw;
+              line-height: 3vw;
+            }
+            @include tablet {
+              font-size: 4vw;
+              line-height: 5vw;
+              padding-right: 1.5vw;
+            }
+            @include mobile {
+              font-size: 4vw;
+              line-height: 5vw;
+            }
+          }
+        }
+        .blank {
+          width: 50%;
+          flex: 1;
+          background-color: #165b36af;
+          align-items: auto;
+          @include tablet-pro {
+            display: none;
+          }
+        }
+      }
+    }
+
+    .right {
+      width: 30%;
+      @include tablet-pro {
+        width: 40%;
+      }
+      @include tablet {
+        width: 40%;
+      }
+      @include mobile {
+        width: 100%;
+        margin: 10vw 0;
+      }
+      ul {
+        list-style-type: square;
+        @include mobile {
+          margin-left: 10vw;
+        }
+        li {
+          color: $primary;
+          font-family: "Lora", sans-serif;
+          font-weight: 600;
+          font-size: 1.2vw;
+          margin: 1vw 0;
+          @include laptop {
+            font-size: 1.2vw;
+          }
+          @include tablet-pro {
+            font-size: 1.8vw;
+          }
+          @include tablet {
+            font-size: 2.3vw;
+            margin-bottom: 2vw;
+          }
+          @include mobile {
+            font-size: 3.5vw;
+            margin-bottom: 4vw;
+            // text-align: justify;
+          }
+        }
+      }
+    }
+  }
+
+  .tricolumn-intro {
+    width: 100%;
+    padding: 1.5vw 0;
+    text-align: center;
+    font-family: "poppins", serif;
+    font-size: 2vw;
+    font-weight: 600;
+    letter-spacing: 0.2vw;
+    text-transform: uppercase;
+    color: $golden;
+    @include laptop {
+      padding: 2vw 0;
+    }
+    @include tablet-pro {
+      padding: 3vw 0;
+      font-size: 3vw;
+    }
+    @include tablet {
+      padding: 3vw 0;
+      font-size: 3.5vw;
+    }
+    @include mobile {
+      padding: 4vw 0;
+      font-size: 5vw;
+    }
+  }
+
+  .tricolumn {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    align-items: stretch;
+    flex-wrap: wrap;
+    background-image: url("../../images/research.jpg");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    @include tablet-pro {
+      // background: none;
+    }
+    @include tablet {
+      // background: none;
+      padding: 5vw;
+    }
+    @include mobile {
+      // background: none;
+    }
+    .item {
+      width: 30%;
+      flex-grow: 1;
+      padding: 5vw 4vw;
+      background-color: #eeeeeed7;
+      @include tablet {
+        width: 100%;
+        margin: 1vw 0;
+        &.empty {
+          display: none;
+        }
+      }
+      @include mobile {
+        width: 100%;
+        margin: 1vw 0;
+        padding: 10vw;
+        &.empty {
+          display: none;
+        }
+      }
+      .title {
+        color: $primary;
+        font-size: 1.3vw;
+        line-height: 2vw;
+        margin-bottom: 1vw;
+        font-family: "Lora", serif;
+        @include laptop {
+          font-size: 1.5vw;
+          line-height: 2.5vw;
+          margin-bottom: 1vw;
+        }
+        @include tablet-pro {
+          font-size: 2.2vw;
+          line-height: 4vw;
+        }
+        @include tablet {
+          font-size: 2.5vw;
+          line-height: 4.5vw;
+        }
+        @include mobile {
+          font-size: 4vw;
+          line-height: 6.5vw;
+          margin-bottom: 2vw;
+        }
+      }
+
+      ul {
+        list-style-type: square;
+        margin: 0.5vw 0;
+      }
+      p,
+      li,
+      span {
+        text-align: left;
+        font-size: 0.9vw;
+        font-family: "Poppins", sans-serif;
+        color: $black;
+        @include laptop {
+          font-size: 1.2vw;
+        }
+        @include tablet-pro {
+          font-size: 1.8vw;
+        }
+        @include tablet {
+          font-size: 2.3vw;
+          margin-bottom: 2vw;
+        }
+        @include mobile {
+          font-size: 3.5vw;
+          margin-bottom: 4vw;
+          // text-align: justify;
+        }
+        span {
+          &.title {
+            color: #f1a42d;
+          }
+          strong {
+            color: #0a4995;
+          }
+        }
+      }
+      &.inverted {
+        display: none;
+      }
+
+      &.content {
+        background-color: #165b36e0;
+        padding: 5vw 4vw;
+        @include laptop {
+          //   padding: 1vw 2vw;
+        }
+        @include tablet-pro {
+          //   padding: 3vw 7vw;
+        }
+        @include tablet {
+          //   padding: 3vw 10vw;
+        }
+        @include mobile {
+          padding: 10vw;
+        }
+        .title {
+          color: $mustard;
+          font-size: 1.3vw;
+          line-height: 2vw;
+          margin-bottom: 1vw;
+          font-family: "Lora", serif;
+          @include laptop {
+            font-size: 1.5vw;
+            line-height: 2.5vw;
+            margin-bottom: 1vw;
+          }
+          @include tablet-pro {
+            font-size: 2.2vw;
+            line-height: 4vw;
+          }
+          @include tablet {
+            font-size: 2.5vw;
+            line-height: 4.5vw;
+          }
+          @include mobile {
+            font-size: 4vw;
+            line-height: 6.5vw;
+            margin-bottom: 2vw;
+          }
+        }
+
+        ul {
+          list-style-type: square;
+          margin: 0.5vw 0 0 0.5vw;
+        }
+
+        p,
+        li,
+        span {
+          text-align: left;
+          font-size: 0.9vw;
+          font-family: "Poppins", sans-serif;
+          color: $white;
+          @include laptop {
+            font-size: 1.2vw;
+          }
+          @include tablet-pro {
+            font-size: 1.8vw;
+          }
+          @include tablet {
+            font-size: 2.3vw;
+            margin-bottom: 2vw;
+          }
+          @include mobile {
+            font-size: 3.5vw;
+            margin-bottom: 4vw;
+            // text-align: justify;
+          }
+          span {
+            &.title {
+              color: #f1a42d;
+            }
+            strong {
+              color: #0a4995;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #how_to_apply {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: 5vw 0;
+    padding: 0 5vw;
+    @include tablet-pro {
+      flex-direction: column-reverse;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      margin: 5vw 0;
+    }
+    @include tablet {
+      flex-direction: column-reverse;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      margin: 5vw 0;
+    }
+    @include mobile {
+      flex-direction: column-reverse;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      margin: 5vw 0 10vw 0;
+    }
+
+    .image {
+      width: 40%;
+      background-size: contain;
+      overflow: hidden;
+      background-image: url("../../images/methodology.png");
+      background-position: left;
+      background-repeat: no-repeat;
+      background-size: contain;
+      display: grid;
+      place-items: center;
+      @include tablet-pro {
+        width: 100%;
+      }
+      @include tablet {
+        width: 100%;
+      }
+      @include mobile {
+        width: 100%;
+        margin-bottom: 5vw;
+      }
+      img {
+        width: 100%;
+      }
+    }
+    .content {
+      width: 55%;
+      background-repeat: no-repeat;
+      background-position: center;
+      font-family: "Lora", serif;
+      text-align: left;
+      padding: 2vw 0;
+      @include tablet-pro {
+        width: 100%;
+        padding: 3vw 3vw 3vw 3.5vw;
+      }
+      @include tablet {
+        width: 100%;
+        padding: 3vw 7vw 3vw 3.5vw;
+      }
+      @include mobile {
+        width: 100%;
+        padding: 0;
+        // background-position: 110% 0;
+      }
+
+      .main_title,
+      .main_right-heading {
+        color: $primary;
+        font-family: "poppins", serif;
+        font-size: 1.5vw;
+        line-height: 3vw;
+        margin-bottom: 0.5vw;
+        letter-spacing: 0.1vw;
+        @include laptop {
+          font-size: 3vw;
+          line-height: 4vw;
+          margin-bottom: 2vw;
+        }
+        @include tablet-pro {
+          font-size: 3vw;
+          line-height: 4vw;
+        }
+        @include tablet {
+          font-size: 3.5vw;
+          line-height: 4.5vw;
+        }
+        @include mobile {
+          font-size: 4.5vw;
+          line-height: 6.5vw;
+          margin-bottom: 2vw;
+        }
+      }
+      .subtitle {
+        color: $primary;
+        font-size: 1.5vw;
+        margin-bottom: 1vw;
+        @include laptop {
+          font-size: 2vw;
+          line-height: 3vw;
+        }
+        @include tablet-pro {
+          font-size: 2.5vw;
+          line-height: 3vw;
+        }
+        @include tablet {
+          font-size: 2.8vw;
+          line-height: 4.5vw;
+        }
+        @include mobile {
+          font-size: 4vw;
+          line-height: 6.5vw;
+          margin-bottom: 2vw;
+        }
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 0.5vw 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        li.mustard {
+          &::before {
+            content: "■";
+            margin-right: 0.5vw;
+            font-size: 0.8vw;
+            color: $mustard;
+            margin-left: 2vw;
+            @include tablet-pro {
+              font-size: 1vw;
+            }
+            @include tablet {
+              font-size: 2vw;
+            }
+            @include mobile {
+              font-size: 2vw;
+            }
+          }
+          ul.inner_list {
+            padding-left: 0vw;
+            li {
+              margin: 1vw 0;
+              &::before {
+                content: "";
+                margin-right: 0;
+              }
+            }
+          }
+        }
+      }
+
+      p,
+      li,
+      span {
+        text-align: left;
+        margin-bottom: 0.7vw;
+        font-size: 0.9vw;
+        margin: 1vw 0;
+        font-family: "Poppins", sans-serif;
+        color: $text_color;
+        @include laptop {
+          font-size: 1.2vw;
+        }
+        @include tablet-pro {
+          font-size: 1.8vw;
+        }
+        @include tablet {
+          font-size: 2.3vw;
+          margin-bottom: 2vw;
+        }
+        @include mobile {
+          font-size: 3.5vw;
+          margin-bottom: 2vw;
+        }
+        strong {
+          color: $primary;
+        }
+        span {
+          &.title {
+            font-weight: 600;
+            color: $blue;
+          }
+          strong {
+            color: #0a4995;
+          }
+        }
+        @include mobile {
+          margin-bottom: 4vw;
+        }
+      }
+      .cta {
+        width: 20vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: "Poppins", sans-serif;
+        margin: 2vw auto;
+        padding: 1.5vw 2vw;
+        outline: none;
+        border: solid 0.1vw $primary;
+        background-color: $primary;
+        color: $white;
+        font-size: 0.9vw;
+        letter-spacing: 0.1vw;
+        font-weight: 600;
+        border-radius: 0.1vw;
+        cursor: pointer;
+        svg {
+          margin-left: 1vw;
+          width: 1vw;
+        }
+
+        @include tablet-pro {
+          padding: 1vw 2vw;
+          font-size: 1.5vw;
+          width: 30vw;
+        }
+        @include tablet {
+          padding: 1vw 2vw;
+          font-size: 2vw;
+          border-radius: 0.5vw;
+          width: 40vw;
+        }
+        @include mobile {
+          padding: 2vw 4vw;
+          font-size: 3.5vw;
+          border-radius: 1vw;
+          width: 60vw;
+        }
+      }
+    }
+  }
+
+  #judging_criteria {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: 5vw 0;
+    padding: 0 5vw;
+    @include tablet-pro {
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      margin: 5vw 0;
+    }
+    @include tablet {
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      margin: 5vw 0;
+    }
+    @include mobile {
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-start;
+      margin: 5vw 0 10vw 0;
+    }
+
+    .image {
+      width: 55%;
+      background-size: cover;
+      overflow: hidden;
+      background-image: url("../../images/bloodsamples.jpg");
+      background-position: center;
+      display: grid;
+      place-items: center;
+    }
+    .content {
+      width: 45%;
+      background-repeat: no-repeat;
+      background-position: center;
+      font-family: "Lora", serif;
+      text-align: left;
+      padding: 8vw 2vw;
+      background-color: $primary;
+      @include tablet-pro {
+        width: 100%;
+        padding: 3vw 3vw 3vw 3.5vw;
+      }
+      @include tablet {
+        width: 100%;
+        padding: 3vw 7vw 3vw 3.5vw;
+      }
+      @include mobile {
+        width: 100%;
+        padding: 5vw;
+      }
+
+      .main_title {
+        color: $white;
+        font-family: "poppins", serif;
+        font-size: 1.5vw;
+        @include laptop {
+          font-size: 3vw;
+          line-height: 4vw;
+          margin-bottom: 2vw;
+        }
+        @include tablet-pro {
+          font-size: 3vw;
+          line-height: 4vw;
+        }
+        @include tablet {
+          font-size: 3.5vw;
+          line-height: 4.5vw;
+        }
+        @include mobile {
+          font-size: 4.5vw;
+          line-height: 6.5vw;
+          margin-bottom: 2vw;
+        }
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 0.5vw 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        li.mustard {
+          &::before {
+            content: "■";
+            margin-right: 0.5vw;
+            font-size: 0.8vw;
+            color: $white;
+            margin-left: 2vw;
+            @include tablet-pro {
+              font-size: 1vw;
+            }
+            @include tablet {
+              font-size: 2vw;
+            }
+            @include mobile {
+              font-size: 2vw;
+            }
+          }
+          ul.inner_list {
+            padding-left: 0vw;
+            li {
+              margin: 1vw 0;
+              &::before {
+                content: "";
+                margin-right: 0;
+              }
+            }
+          }
+        }
+      }
+
+      p,
+      li,
+      span {
+        text-align: left;
+        margin-bottom: 0.7vw;
+        font-size: 0.9vw;
+        margin: 1vw 0;
+        font-family: "Poppins", sans-serif;
+        color: $white;
+        @include laptop {
+          font-size: 1.2vw;
+        }
+        @include tablet-pro {
+          font-size: 1.8vw;
+        }
+        @include tablet {
+          font-size: 2.3vw;
+          margin-bottom: 2vw;
+        }
+        @include mobile {
+          font-size: 3.5vw;
+          margin-bottom: 2vw;
+        }
+        strong {
+          color: $mustard;
+        }
+        span {
+          &.title {
+            font-weight: 600;
+            color: $primary;
+          }
+          strong {
+            color: #0a4995;
+          }
+        }
+        @include mobile {
+          margin-bottom: 4vw;
+        }
+      }
+    }
+  }
+}

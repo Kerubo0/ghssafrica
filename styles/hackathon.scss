@@ -1,0 +1,24 @@
+@use "partials/global" as *;
+
+@font-face {
+  font-family: 'GlitchDemo';
+  src: url('../fonts/SDGlitch_Demo.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  padding: 1vw 0 0 0;
+  width: 100%;
+  height: auto;
+  
+
+  main {
+    width: 100%;
+    height: inherit;
+    @import "hackathon/header";
+    @import "hackathon/hero";
+    @import "hackathon/about";
+    @import "hackathon/footer";
+  }
+}

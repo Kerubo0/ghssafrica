@@ -1,0 +1,211 @@
+footer {
+  width: 100%;
+  margin: 2vw 0 0 0;
+  padding: 3vw 0 0 0;
+  background-color: $blue;
+
+  .first {
+    width: 100%;
+    padding: 3vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    @include tablet {
+      flex-direction: column-reverse;
+      flex-wrap: wrap;
+    }
+    @include mobile {
+      flex-direction: column-reverse;
+      flex-wrap: wrap;
+    }
+
+    .f_logo {
+      width: 20%;
+      margin-top: -3%;
+      @include tablet {
+        width: 100%;
+      }
+      @include mobile {
+        width: 100%;
+      }
+      .image {
+        width: 100%;
+        display: grid;
+        place-items: center;
+        margin-bottom: 2vw;
+        img {
+          width: 100%;
+          @include tablet {
+            width: 30%;
+          }
+          @include mobile {
+            width: 50%;
+          }
+        }
+      }
+
+      .socials {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        a {
+          display: grid;
+          place-items: center;
+          width: 3vw;
+          height: 3vw;
+          margin: 0.5vw;
+          border: solid 0.2vw #fff;
+          border-radius: 50%;
+          @include tablet {
+            width: 5vw;
+            height: 5vw;
+            margin: 0 2vw;
+          }
+          @include mobile {
+            width: 8vw;
+            height: 8vw;
+            margin: 0 3vw;
+          }
+          svg {
+            width: 1.5vw;
+            height: 1.5vw;
+            color: $white;
+            @include tablet {
+              width: 2vw;
+              height: 2vw;
+            }
+            @include mobile {
+              width: 3.5vw;
+              height: 3.5vw;
+              margin: 0 2vw;
+            }
+          }
+        }
+      }
+    }
+    .links {
+      margin-top: -2vw;
+      width: 75%;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      font-family: "Lora", serif;
+      @include tablet {
+        width: 100%;
+        padding: 5vw;
+        flex-wrap: wrap;
+      }
+      @include mobile {
+        width: 100%;
+        padding: 5vw;
+        flex-wrap: wrap;
+      }
+
+      ul {
+        list-style-type: none;
+        @include tablet {
+          width: 33%;
+          margin-bottom: 5vw;
+        }
+        @include mobile {
+          text-align: center;
+          width: 100%;
+          margin-bottom: 5vw;
+        }
+        span {
+          display: inline-block;
+          color: $secondary;
+          text-transform: uppercase;
+          font-weight: 700;
+          font-size: 1.2vw;
+          margin-bottom: 1vw;
+          @include tablet {
+            font-size: 2vw;
+          }
+          @include mobile {
+            font-size: 5vw;
+          }
+        }
+
+        li {
+          margin: 1vw 0;
+          @include mobile {
+            margin: 3vw 0;
+          }
+          a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.1vw;
+            font-weight: 500;
+            @include tablet-pro {
+              font-size: 1.5vw;
+            }
+            @include tablet {
+              font-size: 2vw;
+            }
+            @include mobile {
+              font-size: 4vw;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .copyright {
+    width: 100%;
+    padding: 1.5vw;
+    display: grid;
+    place-items: center;
+    font-family: "Lora", serif;
+    color: $secondary;
+
+    @include mobile {
+      padding: 3vw;
+      margin-top: 0vw;
+    }
+    p,
+    span {
+      font-size: 1.5vw;
+      font-weight: 600;
+      @include tablet {
+        font-size: 2vw;
+      }
+      @include mobile {
+        font-size: 4vw;
+      }
+    }
+  }
+
+  .last {
+    height: 5vw;
+    margin-top: 5vw;
+    width: 100%;
+    background-image: url("../../images/white-medpattern.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    @include laptop {
+      height: 5vw;
+    }
+    @include tablet-pro {
+      height: 7vw;
+      background-position: center;
+      background-repeat: repeat;
+      background-size: contain;
+    }
+    @include tablet {
+      height: 10vw;
+      background-position: center;
+      background-repeat: repeat;
+      background-size: cover;
+    }
+    @include mobile {
+      height: 15vw;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+}
