@@ -436,17 +436,16 @@ body main .rhero {
   width: 100%;
   height: 50vh;
   padding: 5vw 3vw;
-  /*background-image: linear-gradient(rgba(0, 0, 0, 0.4039215686), rgba(0, 0, 0, 0.4039215686)), url("../images/new-hero.png");
-  background-position: center top;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4039215686), rgba(0, 0, 0, 0.4039215686)), url("../images/gallery/business-hands-joined-together-teamwork.jpg");
+  background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
+  opacity: 1;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background-image 5s ease-in-out;*/
+  transition: background-image 5s ease-in-out;
 
-  background-image: url("../images/new-hero.png");
-  background-repeat: no-repeat;
 }
 @media (min-width: 1025px) and (max-width: 1440px) {
   body main .rhero {
@@ -525,9 +524,9 @@ body main .rhero .message .left {
     padding: 5vw;
   }
 }
-body main .rhero .message .left h1.main_headline {
-  color: #c2b59d;
-  font-size: 4vw;
+body main .rhero .message  h1.main_headline {
+  color: #061c38;
+  font-size: 8vw;
   font-family: "Lora", serif;
   font-optical-sizing: auto;
   font-weight: 600;
@@ -688,15 +687,15 @@ body main .story-nav .links ul li.active span {
 
 .sidebar a {
   text-decoration: none;
-  color: #1c7bae;
+  color: #061c38;
   background-color: white;
   display: block;
   padding:2px 4px;
 }
 
 .sidebar a:hover{
-  background-color: #1c7bae;
-  color: white;
+  text-decoration: underline;
+  
 
 }
 
@@ -719,7 +718,7 @@ body main .story-nav .links ul li.active span {
 
 /* Card Styling */
 .resource-card {
-  background: #061c38;
+  background: #fff;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: var(--shadow);
@@ -738,13 +737,13 @@ body main .story-nav .links ul li.active span {
 }
 
 .card-body { padding: 20px; flex-grow: 1; display: flex; flex-direction: column; }
-.card-body h3 { font-size: 1.1rem; margin: 0 0 10px; line-height: 1.4; color: #fff; }
-.card-body p { font-size: 0.9rem; color: #fff; line-height: 1.6; margin-bottom: 20px; }
+.card-body h3 { font-size: 1.1rem; margin: 0 0 10px; line-height: 1.4; color: #000; }
+.card-body p { font-size: 0.9rem; color: #000; line-height: 1.6; margin-bottom: 20px; }
 
 .card-footer { margin-top: auto; }
 .btn-primary {
   display: inline-block;
-  background: #fba50a;
+  background: #061c38;
   color: white;
   padding: 10px 20px;
   text-decoration: none;
